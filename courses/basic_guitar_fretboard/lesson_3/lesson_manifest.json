@@ -1,0 +1,16 @@
+{
+  "id": "trane::music::guitar::basic_fretboard::lesson_3",
+  "dependencies": [
+    "trane::music::guitar::basic_fretboard::lesson_2"
+  ],
+  "course_id": "trane::music::guitar::basic_fretboard",
+  "name": "Lesson 3",
+  "description": "Practice the position of all accidental notes in the fretboard at 40 bpm",
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": {
+    "MarkdownAsset": {
+      "path": "instructions.md"
+    }
+  }
+}

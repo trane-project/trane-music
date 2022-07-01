@@ -1,0 +1,16 @@
+{
+  "id": "trane::music::theory::major_scale::A♭",
+  "dependencies": [
+    "trane::music::theory::major_scale::E♭"
+  ],
+  "course_id": "trane::music::theory::major_scale",
+  "name": "Major Scale - Key of A♭",
+  "description": "Learn the notes of the major scale in the key of A♭",
+  "metadata": {
+    "key": [
+      "A_flat"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

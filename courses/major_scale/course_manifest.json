@@ -1,0 +1,22 @@
+{
+  "id": "trane::music::theory::major_scale",
+  "name": "The Major Scale",
+  "dependencies": [],
+  "description": "Learn the notes of the major scale for all twelve keys",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "musical_concept": [
+      "scales"
+    ],
+    "scale_type": [
+      "major"
+    ],
+    "skill": [
+      "music"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::guitar::basic_fretboard::lesson_1",
+  "dependencies": [],
+  "course_id": "trane::music::guitar::basic_fretboard",
+  "name": "Lesson 1",
+  "description": "Learn the position of all natural notes in the fretboard",
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": {
+    "MarkdownAsset": {
+      "path": "instructions.md"
+    }
+  }
+}

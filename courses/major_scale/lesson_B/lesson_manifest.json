@@ -1,0 +1,16 @@
+{
+  "id": "trane::music::theory::major_scale::B",
+  "dependencies": [
+    "trane::music::theory::major_scale::E"
+  ],
+  "course_id": "trane::music::theory::major_scale",
+  "name": "Major Scale - Key of B",
+  "description": "Learn the notes of the major scale in the key of B",
+  "metadata": {
+    "key": [
+      "B"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

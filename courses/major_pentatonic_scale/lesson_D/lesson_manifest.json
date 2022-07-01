@@ -1,0 +1,16 @@
+{
+  "id": "trane::music::theory::major_pentatonic_scale::D",
+  "dependencies": [
+    "trane::music::theory::major_pentatonic_scale::G"
+  ],
+  "course_id": "trane::music::theory::major_pentatonic_scale",
+  "name": "Major Pentatonic Scale - Key of D",
+  "description": "Learn the notes of the major pentatonic scale in the key of D",
+  "metadata": {
+    "key": [
+      "D"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

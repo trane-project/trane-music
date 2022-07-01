@@ -1,0 +1,12 @@
+[package]
+name = "trane-music"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.57"
+indoc = "1.0"
+trane = "0.1.1"
+
+# Commented out for use for local development.
+# trane = { path = "../trane" }

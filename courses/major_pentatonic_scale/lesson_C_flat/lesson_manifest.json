@@ -1,0 +1,16 @@
+{
+  "id": "trane::music::theory::major_pentatonic_scale::C♭",
+  "dependencies": [
+    "trane::music::theory::major_pentatonic_scale::G♭"
+  ],
+  "course_id": "trane::music::theory::major_pentatonic_scale",
+  "name": "Major Pentatonic Scale - Key of C♭",
+  "description": "Learn the notes of the major pentatonic scale in the key of C♭",
+  "metadata": {
+    "key": [
+      "C_flat"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "trane::music::theory::minor_scale",
+  "name": "The Minor Scale",
+  "dependencies": [
+    "trane::music::theory::major_scale"
+  ],
+  "description": "Learn the notes of the minor scale for all twelve keys",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "musical_concept": [
+      "scales"
+    ],
+    "scale_type": [
+      "minor"
+    ],
+    "skill": [
+      "music"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": null
+}

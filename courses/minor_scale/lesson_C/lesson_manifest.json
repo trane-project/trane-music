@@ -1,0 +1,16 @@
+{
+  "id": "trane::music::theory::minor_scale::C",
+  "dependencies": [
+    "trane::music::theory::minor_scale::G"
+  ],
+  "course_id": "trane::music::theory::minor_scale",
+  "name": "Minor Scale - Key of C",
+  "description": "Learn the notes of the minor scale in the key of C",
+  "metadata": {
+    "key": [
+      "C"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

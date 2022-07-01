@@ -1,0 +1,6 @@
+- 1st string (high E): 10th fret
+- 2nd string (B): 3rd fret
+- 3rd string (G): 7th fret
+- 4th string (D): 12th fret
+- 5th string (A): 5th fret
+- 6th string (low E): 10th fret

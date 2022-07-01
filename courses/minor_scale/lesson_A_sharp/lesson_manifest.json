@@ -1,0 +1,16 @@
+{
+  "id": "trane::music::theory::minor_scale::A♯",
+  "dependencies": [
+    "trane::music::theory::minor_scale::D♯"
+  ],
+  "course_id": "trane::music::theory::minor_scale",
+  "name": "Minor Scale - Key of A♯",
+  "description": "Learn the notes of the minor scale in the key of A♯",
+  "metadata": {
+    "key": [
+      "A_sharp"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

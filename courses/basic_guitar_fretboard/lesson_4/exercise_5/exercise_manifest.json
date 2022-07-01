@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::guitar::basic_fretboard::lesson_4::exercise_5",
+  "lesson_id": "trane::music::guitar::basic_fretboard::lesson_4",
+  "course_id": "trane::music::guitar::basic_fretboard",
+  "name": "Exercise 5",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

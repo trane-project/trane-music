@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::theory::major_scale::B::exercise_3",
+  "lesson_id": "trane::music::theory::major_scale::B",
+  "course_id": "trane::music::theory::major_scale",
+  "name": "Exercise 3",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

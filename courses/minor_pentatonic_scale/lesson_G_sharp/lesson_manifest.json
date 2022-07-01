@@ -1,0 +1,16 @@
+{
+  "id": "trane::music::theory::minor_pentatonic_scale::G♯",
+  "dependencies": [
+    "trane::music::theory::minor_pentatonic_scale::C♯"
+  ],
+  "course_id": "trane::music::theory::minor_pentatonic_scale",
+  "name": "Minor Pentatonic Scale - Key of G♯",
+  "description": "Learn the notes of the minor pentatonic scale in the key of G♯",
+  "metadata": {
+    "key": [
+      "G_sharp"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

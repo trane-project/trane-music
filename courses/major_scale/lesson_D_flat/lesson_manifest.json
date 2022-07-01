@@ -1,0 +1,16 @@
+{
+  "id": "trane::music::theory::major_scale::D♭",
+  "dependencies": [
+    "trane::music::theory::major_scale::A♭"
+  ],
+  "course_id": "trane::music::theory::major_scale",
+  "name": "Major Scale - Key of D♭",
+  "description": "Learn the notes of the major scale in the key of D♭",
+  "metadata": {
+    "key": [
+      "D_flat"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

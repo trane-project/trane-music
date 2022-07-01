@@ -1,0 +1,16 @@
+{
+  "id": "trane::music::theory::major_scale::F♯",
+  "dependencies": [
+    "trane::music::theory::major_scale::B"
+  ],
+  "course_id": "trane::music::theory::major_scale",
+  "name": "Major Scale - Key of F♯",
+  "description": "Learn the notes of the major scale in the key of F♯",
+  "metadata": {
+    "key": [
+      "F_sharp"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

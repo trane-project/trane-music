@@ -1,0 +1,16 @@
+{
+  "id": "trane::music::theory::minor_pentatonic_scale::F",
+  "dependencies": [
+    "trane::music::theory::minor_pentatonic_scale::C"
+  ],
+  "course_id": "trane::music::theory::minor_pentatonic_scale",
+  "name": "Minor Pentatonic Scale - Key of F",
+  "description": "Learn the notes of the minor pentatonic scale in the key of F",
+  "metadata": {
+    "key": [
+      "F"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

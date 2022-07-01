@@ -1,0 +1,24 @@
+{
+  "id": "trane::music::guitar::advanced_fretboard",
+  "name": "Advanced Guitar Fretboard",
+  "dependencies": [
+    "trane::music::guitar::basic_fretboard::lesson_3"
+  ],
+  "description": "Learn the position of notes in the guitar frateboard",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "instrument": [
+      "guitar"
+    ],
+    "musical_skill": [
+      "fretboard"
+    ],
+    "skill": [
+      "music"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": null
+}

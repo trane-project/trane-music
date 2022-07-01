@@ -1,0 +1,24 @@
+{
+  "id": "trane::music::theory::minor_pentatonic_scale",
+  "name": "The Minor Pentatonic Scale",
+  "dependencies": [
+    "trane::music::theory::minor_scale"
+  ],
+  "description": "Learn the notes of the minor pentatonic scale for all twelve keys",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "musical_concept": [
+      "scales"
+    ],
+    "scale_type": [
+      "minor_pentatonic"
+    ],
+    "skill": [
+      "music"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": null
+}

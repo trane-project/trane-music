@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::guitar::advanced_fretboard::lesson_3",
+  "dependencies": [
+    "trane::music::guitar::advanced_fretboard::lesson_2"
+  ],
+  "course_id": "trane::music::guitar::advanced_fretboard",
+  "name": "Lesson 3",
+  "description": "Find the location of two random notes in the fretboard",
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

@@ -1,0 +1,16 @@
+{
+  "id": "trane::music::theory::minor_scale::D",
+  "dependencies": [
+    "trane::music::theory::minor_scale::A"
+  ],
+  "course_id": "trane::music::theory::minor_scale",
+  "name": "Minor Scale - Key of D",
+  "description": "Learn the notes of the minor scale in the key of D",
+  "metadata": {
+    "key": [
+      "D"
+    ]
+  },
+  "lesson_material": null,
+  "lesson_instructions": null
+}

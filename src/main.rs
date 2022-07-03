@@ -1,3 +1,4 @@
+mod earmaster;
 mod guitar;
 mod theory;
 
@@ -9,6 +10,7 @@ fn main() -> Result<()> {
     let curr_dir = std::env::current_dir()?;
 
     let course_builders = vec![
+        earmaster::interval_identification::course_builder(),
         guitar::basic_guitar_fretboard::course_builder(),
         guitar::advanced_guitar_fretboard::course_builder(),
         theory::major_scale::course_builder()?,

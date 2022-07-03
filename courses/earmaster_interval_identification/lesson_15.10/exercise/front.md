@@ -1,0 +1,4 @@
+Work on the following exercise in EarMaster:
+- Activity: Interval Identification
+- Exercise Name: Minor 2nd, Dim 5th & Major 7th - Descending
+- Exercise Number: 15.10

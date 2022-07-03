@@ -1,0 +1,13 @@
+{
+  "id": "trane::music::earmaster::interval_identification::15.5",
+  "dependencies": [
+    "trane::music::earmaster::interval_identification::15.2",
+    "trane::music::earmaster::interval_identification::15.4"
+  ],
+  "course_id": "trane::music::earmaster::interval_identification",
+  "name": "Minor 2nd, Major 2nd, Minor 7th & Major 7th - Ascending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

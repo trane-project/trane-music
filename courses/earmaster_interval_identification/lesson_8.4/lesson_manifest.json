@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::interval_identification::8.4",
+  "dependencies": [
+    "trane::music::earmaster::interval_identification::8.1",
+    "trane::music::earmaster::interval_identification::8.2",
+    "trane::music::earmaster::interval_identification::8.3"
+  ],
+  "course_id": "trane::music::earmaster::interval_identification",
+  "name": "Major 6th & Minor 6th - Ascending, Descending & Harmonic",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

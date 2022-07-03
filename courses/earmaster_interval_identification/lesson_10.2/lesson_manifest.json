@@ -1,0 +1,13 @@
+{
+  "id": "trane::music::earmaster::interval_identification::10.2",
+  "dependencies": [
+    "trane::music::earmaster::interval_identification::8.4",
+    "trane::music::earmaster::interval_identification::9.4"
+  ],
+  "course_id": "trane::music::earmaster::interval_identification",
+  "name": "All intervals from Minor 6th to Major 7th - Descending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

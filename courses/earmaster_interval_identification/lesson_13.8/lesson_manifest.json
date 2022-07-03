@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::interval_identification::13.8",
+  "dependencies": [
+    "trane::music::earmaster::interval_identification::13.5",
+    "trane::music::earmaster::interval_identification::13.6",
+    "trane::music::earmaster::interval_identification::13.7"
+  ],
+  "course_id": "trane::music::earmaster::interval_identification",
+  "name": "Unison, Perfect 4th, Perfect 5th & Octave - Ascending, Descending & Harmonic",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

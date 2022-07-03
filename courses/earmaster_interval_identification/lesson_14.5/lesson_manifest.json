@@ -1,0 +1,13 @@
+{
+  "id": "trane::music::earmaster::interval_identification::14.5",
+  "dependencies": [
+    "trane::music::earmaster::interval_identification::14.2",
+    "trane::music::earmaster::interval_identification::14.4"
+  ],
+  "course_id": "trane::music::earmaster::interval_identification",
+  "name": "Minor 3rd, Major 3rd, Minor 6th & Major 6th - Ascending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

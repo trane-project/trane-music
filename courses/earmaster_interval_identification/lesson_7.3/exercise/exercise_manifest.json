@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::interval_identification::7.3::exercise",
+  "lesson_id": "trane::music::earmaster::interval_identification::7.3",
+  "course_id": "trane::music::earmaster::interval_identification",
+  "name": "All intervals from Minor 2nd to Perfect 5th - Harmonic",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

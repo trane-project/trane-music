@@ -55,9 +55,11 @@ pub fn course_builder() -> CourseBuilder {
             file_name: "instructions.md".to_string(),
             contents: indoc! {"
                 Go down each string and find the given note in the first twelve frets.
-                Repeat but this time going up the strings.
+                Repeat another time going up the strings.
 
                 Do this at a slow tempo but without a metronome.
+
+                This exercise was adopted from exercise 1 in this video: https://www.youtube.com/watch?v=PJddQ6Q0UDo
             "}
             .to_string(),
         }],
@@ -104,9 +106,11 @@ pub fn course_builder() -> CourseBuilder {
             file_name: "instructions.md".to_string(),
             contents: indoc! {"
                 Go down each string and find the given note in the first twelve frets.
-                Repeat but this time going up the strings.
+                Repeat another time going up the strings.
 
                 Do this at 40 bpm using a metronome.
+
+                This exercise was adopted from exercise 2 in this video: https://www.youtube.com/watch?v=PJddQ6Q0UDo
             "}
             .to_string(),
         }],
@@ -154,9 +158,11 @@ pub fn course_builder() -> CourseBuilder {
             file_name: "instructions.md".to_string(),
             contents: indoc! {"
                 Go down each string and find the given note in the first twelve frets.
-                Repeat but this time going up the strings.
+                Repeat another time going up the strings.
 
                 Do this at 40 bpm using a metronome.
+
+                This exercise was adopted from exercise 3 in this video: https://www.youtube.com/watch?v=PJddQ6Q0UDo
             "}
             .to_string(),
         }],
@@ -211,9 +217,11 @@ pub fn course_builder() -> CourseBuilder {
             file_name: "instructions.md".to_string(),
             contents: indoc! {"
                 Go down each string and find the given note in the first twelve frets.
-                Repeat but this time going up the strings.
+                Repeat another time going up the strings.
 
                 Do this gradually increasing the speed to 80 bpm using a metronome.
+
+                This exercise was adopted from exercise 6 in this video: https://www.youtube.com/watch?v=PJddQ6Q0UDo
             "}
             .to_string(),
         }],

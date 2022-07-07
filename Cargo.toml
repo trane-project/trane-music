@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.57"
 indoc = "1.0"
-trane = "0.1.1"
+trane = "0.2.2"
 
 # Commented out for use for local development.
 # trane = { path = "../trane" }

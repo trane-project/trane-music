@@ -12,5 +12,9 @@
     ]
   },
   "course_material": null,
-  "course_instructions": null
+  "course_instructions": {
+    "MarkdownAsset": {
+      "path": "instructions.md"
+    }
+  }
 }

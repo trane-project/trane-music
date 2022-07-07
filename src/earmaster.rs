@@ -7,7 +7,8 @@ use indoc::{formatdoc, indoc};
 use trane::{
     course_builder::{AssetBuilder, CourseBuilder, ExerciseBuilder, LessonBuilder},
     data::{
-        CourseManifest, ExerciseAsset, ExerciseManifestBuilder, ExerciseType, LessonManifestBuilder,
+        BasicAsset, CourseManifest, ExerciseAsset, ExerciseManifestBuilder, ExerciseType,
+        LessonManifestBuilder,
     },
 };
 
@@ -135,14 +136,25 @@ impl EarMasterCourse {
                 dependencies: vec![],
                 authors: Some(vec![AUTHORS.to_string()]),
                 metadata: Some(metadata),
-                course_instructions: None,
+                course_instructions: Some(BasicAsset::MarkdownAsset {
+                    path: "instructions.md".to_string(),
+                }),
                 course_material: None,
             },
             lesson_manifest_template: LessonManifestBuilder::default()
                 .course_id(self.id.clone())
                 .clone(),
             lesson_builders,
-            asset_builders: vec![],
+            asset_builders: vec![AssetBuilder {
+                file_name: "instructions.md".to_string(),
+                contents: formatdoc! {"
+                        This course contains the exercises from the {} 
+                        activity in EarMaster 7.2. The exercises are referenced by the same
+                        numbers as in EarMaster. If you do not have a copy, you can add this
+                        course to the blacklist.
+                    ", self.name}
+                .to_string(),
+            }],
         }
     }
 }

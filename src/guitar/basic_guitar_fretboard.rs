@@ -33,16 +33,17 @@ fn generate_exercise_builders(
     exercises
         .into_iter()
         .map(|(number, note)| {
-            let cloned_id = lesson_id.to_string().clone();
+            let cloned_id = lesson_id.to_string();
             ExerciseBuilder {
                 directory_name: format!("exercise_{}", number),
                 manifest_closure: Box::new(move |m| {
+                    #[allow(clippy::redundant_clone)]
                     m.clone()
                         .id(format!("{}::exercise_{}", cloned_id, number))
                         .name(format!("Exercise {}", number))
                         .clone()
                 }),
-                asset_builders: generate_asset_builders(note, &tempo),
+                asset_builders: generate_asset_builders(note, tempo),
             }
         })
         .collect()
@@ -73,6 +74,7 @@ pub fn course_builder() -> CourseBuilder {
             })
             .clone(),
         manifest_closure: Box::new(|m| {
+            #[allow(clippy::redundant_clone)]
             m.clone()
                 .id(LESSON1_ID.to_string())
                 .dependencies(vec![])
@@ -124,6 +126,7 @@ pub fn course_builder() -> CourseBuilder {
             })
             .clone(),
         manifest_closure: Box::new(|m| {
+            #[allow(clippy::redundant_clone)]
             m.clone()
                 .id(LESSON2_ID.to_string())
                 .dependencies(vec![LESSON1_ID.to_string()])
@@ -176,6 +179,7 @@ pub fn course_builder() -> CourseBuilder {
             })
             .clone(),
         manifest_closure: Box::new(|m| {
+            #[allow(clippy::redundant_clone)]
             m.clone()
                 .id(LESSON3_ID.to_string())
                 .dependencies(vec![LESSON2_ID.to_string()])
@@ -235,6 +239,7 @@ pub fn course_builder() -> CourseBuilder {
             })
             .clone(),
         manifest_closure: Box::new(|m| {
+            #[allow(clippy::redundant_clone)]
             m.clone()
                 .id(LESSON4_ID.to_string())
                 .dependencies(vec![LESSON3_ID.to_string()])

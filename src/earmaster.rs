@@ -52,6 +52,7 @@ impl EarMasterLesson {
             directory_name: format!("lesson_{}", self.id),
             asset_builders: vec![],
             manifest_closure: Box::new(move |m| {
+                #[allow(clippy::redundant_clone)]
                 m.clone()
                     .id(lesson_id_clone.clone())
                     .name(name_clone.clone())
@@ -60,7 +61,7 @@ impl EarMasterLesson {
             }),
             exercise_manifest_template: ExerciseManifestBuilder::default()
                 .id(exercise_id)
-                .lesson_id(lesson_id.clone())
+                .lesson_id(lesson_id)
                 .course_id(course_id.to_string())
                 .name(self.name.clone())
                 .exercise_type(ExerciseType::Procedural)
@@ -71,7 +72,7 @@ impl EarMasterLesson {
                 .clone(),
             exercise_builders: vec![ExerciseBuilder {
                 directory_name: "exercise".to_string(),
-                manifest_closure: Box::new(|m| m.clone()),
+                manifest_closure: Box::new(|m| m),
                 asset_builders: vec![
                     AssetBuilder {
                         file_name: "front.md".to_string(),
@@ -80,8 +81,7 @@ impl EarMasterLesson {
                             - Activity: {}
                             - Exercise Name: {}
                             - Exercise Number: {}
-                        ", course_name, self.name, self.id}
-                        .to_string(),
+                        ", course_name, self.name, self.id},
                     },
                     AssetBuilder {
                         file_name: "back.md".to_string(),
@@ -152,8 +152,7 @@ impl EarMasterCourse {
                         activity in EarMaster 7.2. The exercises are referenced by the same
                         numbers as in EarMaster. If you do not have a copy, you can add this
                         course to the blacklist.
-                    ", self.name}
-                .to_string(),
+                    ", self.name},
             }],
         }
     }

@@ -33,6 +33,7 @@ pub fn course_builder() -> CourseBuilder {
             })
             .clone(),
         manifest_closure: Box::new(|m| {
+            #[allow(clippy::redundant_clone)]
             m.clone()
                 .id(LESSON1_ID.to_string())
                 .dependencies(vec![])
@@ -45,6 +46,7 @@ pub fn course_builder() -> CourseBuilder {
         exercise_builders: vec![ExerciseBuilder {
             directory_name: "exercise_1".to_string(),
             manifest_closure: Box::new(move |m| {
+                #[allow(clippy::redundant_clone)]
                 m.clone()
                     .id(format!("{}::exercise_1", LESSON1_ID))
                     .name("Exercise 1".to_string())
@@ -90,6 +92,7 @@ pub fn course_builder() -> CourseBuilder {
             })
             .clone(),
         manifest_closure: Box::new(|m| {
+            #[allow(clippy::redundant_clone)]
             m.clone()
                 .id(LESSON2_ID.to_string())
                 .dependencies(vec![LESSON1_ID.to_string()])
@@ -102,6 +105,7 @@ pub fn course_builder() -> CourseBuilder {
         exercise_builders: vec![ExerciseBuilder {
             directory_name: "exercise_1".to_string(),
             manifest_closure: Box::new(move |m| {
+                #[allow(clippy::redundant_clone)]
                 m.clone()
                     .id(format!("{}::exercise_1", LESSON2_ID))
                     .name("Exercise 1".to_string())
@@ -147,6 +151,7 @@ pub fn course_builder() -> CourseBuilder {
             })
             .clone(),
         manifest_closure: Box::new(|m| {
+            #[allow(clippy::redundant_clone)]
             m.clone()
                 .id(LESSON3_ID.to_string())
                 .dependencies(vec![LESSON2_ID.to_string()])
@@ -159,6 +164,7 @@ pub fn course_builder() -> CourseBuilder {
         exercise_builders: vec![ExerciseBuilder {
             directory_name: "exercise_1".to_string(),
             manifest_closure: Box::new(move |m| {
+                #[allow(clippy::redundant_clone)]
                 m.clone()
                     .id(format!("{}::exercise_1", LESSON3_ID))
                     .name("Exercise 1".to_string())
@@ -205,6 +211,7 @@ pub fn course_builder() -> CourseBuilder {
             })
             .clone(),
         manifest_closure: Box::new(|m| {
+            #[allow(clippy::redundant_clone)]
             m.clone()
                 .id(LESSON4_ID.to_string())
                 .dependencies(vec![LESSON3_ID.to_string()])
@@ -217,6 +224,7 @@ pub fn course_builder() -> CourseBuilder {
         exercise_builders: vec![ExerciseBuilder {
             directory_name: "exercise_1".to_string(),
             manifest_closure: Box::new(move |m| {
+                #[allow(clippy::redundant_clone)]
                 m.clone()
                     .id(format!("{}::exercise_1", LESSON4_ID))
                     .name("Exercise 1".to_string())
@@ -231,7 +239,7 @@ pub fn course_builder() -> CourseBuilder {
 
                         Gradually increase the speed until you can do it at 80 bpm using a
                         metronome. Only set a high score in this exercise when you can perform
-                        well with any random sequence of notes
+                        well with any random sequence of notes.
 
                         This exercise was adopted from exercise 6 in this video: https://www.youtube.com/watch?v=PJddQ6Q0UDo
                     "}

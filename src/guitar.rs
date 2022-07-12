@@ -210,8 +210,7 @@ pub fn generate_asset_builders(note: Note, tempo: &str) -> Vec<AssetBuilder> {
             file_name: "front.md".to_string(),
             contents: formatdoc! {"
                 Find the note {} in the fretboard {}.
-            ", note.to_string(), tempo}
-            .to_string(),
+            ", note.to_string(), tempo},
         },
         AssetBuilder {
             file_name: "back.md".to_string(),

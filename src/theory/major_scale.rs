@@ -45,6 +45,7 @@ fn generate_exercise_builders(note: Note) -> Result<Vec<ExerciseBuilder>> {
                 },
             ],
             manifest_closure: Box::new(move |m| {
+                #[allow(clippy::redundant_clone)]
                 m.clone()
                     .id(format!(
                         "{}::{}::exercise_{}",
@@ -113,6 +114,7 @@ pub fn course_builder() -> Result<CourseBuilder> {
                         }
                     };
 
+                    #[allow(clippy::redundant_clone)]
                     m.clone()
                         .id(format!("{}::{}", COURSE_ID, note.to_string()))
                         .name(format! {"Major Scale - Key of {}", note.to_string()})

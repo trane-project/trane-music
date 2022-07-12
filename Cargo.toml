@@ -6,7 +6,10 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.57"
 indoc = "1.0"
-trane = "0.2.2"
+trane = "0.2.4"
+
+[dev-dependencies]
+tempfile = "3.3.0"
 
 # Commented out for use for local development.
 # trane = { path = "../trane" }

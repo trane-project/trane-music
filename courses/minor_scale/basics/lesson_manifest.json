@@ -1,0 +1,10 @@
+{
+  "id": "trane::music::theory::minor_scale::basics",
+  "dependencies": [],
+  "course_id": "trane::music::theory::minor_scale",
+  "name": "Minor Scale - Basic Construction",
+  "description": "Learn the intervals which make up the minor scale.",
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

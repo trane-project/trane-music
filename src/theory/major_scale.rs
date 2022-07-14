@@ -71,14 +71,16 @@ fn generate_basics_lesson() -> Result<LessonBuilder> {
                 AssetBuilder {
                     file_name: "front.md".to_string(),
                     contents: formatdoc! {"
-                        What interval from the tonic is degree number {} of the major scale?
+                        What interval from the tonic is degree number {} of the
+                        major scale?
                     ", degree}
                     .to_string(),
                 },
                 AssetBuilder {
                     file_name: "back.md".to_string(),
                     contents: formatdoc! {"
-                        The interval from the tonic of degree number {} of the major scale is {}.
+                        The interval from the tonic of degree number {} of the
+                        major scale is the {}.
                     ", degree, interval.to_string()}
                     .to_string(),
                 },

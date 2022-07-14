@@ -1,0 +1,10 @@
+{
+  "id": "trane::music::theory::major_scale::basics",
+  "dependencies": [],
+  "course_id": "trane::music::theory::major_scale",
+  "name": "Major Scale - Basic Construction",
+  "description": "Learn the intervals which make up the major scale.",
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

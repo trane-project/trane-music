@@ -4,12 +4,7 @@ use anyhow::Result;
 use indoc::formatdoc;
 use trane::{
     course_builder::{
-        music::{
-            circle_fifths::CircleFifthsCourse,
-            notes::*,
-            scales::{ScaleNotes, ScaleType},
-            MusicMetadata,
-        },
+        music::{circle_fifths::CircleFifthsCourse, notes::*, scales::ScaleType, MusicMetadata},
         AssetBuilder, CourseBuilder, ExerciseBuilder, LessonBuilder, TraneMetadata,
     },
     data::{
@@ -131,7 +126,7 @@ pub fn course_builder() -> Result<CourseBuilder> {
                 }),
             })
         }),
-        extra_lesson_builders: vec![],
+        extra_lessons_generator: None,
     };
     course_generator.generate_course_builder()
 }

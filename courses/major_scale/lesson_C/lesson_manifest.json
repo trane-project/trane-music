@@ -1,6 +1,8 @@
 {
   "id": "trane::music::theory::major_scale::C",
-  "dependencies": [],
+  "dependencies": [
+    "trane::music::theory::major_scale::basics"
+  ],
   "course_id": "trane::music::theory::major_scale",
   "name": "Major Scale - Key of C",
   "description": "Learn the notes of the major scale in the key of C",

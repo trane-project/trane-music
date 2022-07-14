@@ -16,3 +16,4 @@ Cargo.lock
 
 # Ignore the .trane folder.
 .trane/
+.trane_history

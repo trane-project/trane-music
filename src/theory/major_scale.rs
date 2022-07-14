@@ -4,12 +4,7 @@ use anyhow::Result;
 use indoc::formatdoc;
 use trane::{
     course_builder::{
-        music::{
-            circle_fifths::CircleFifthsCourse,
-            notes::*,
-            scales::{ScaleNotes, ScaleType},
-            MusicMetadata,
-        },
+        music::{circle_fifths::CircleFifthsCourse, notes::*, scales::ScaleType, MusicMetadata},
         AssetBuilder, CourseBuilder, ExerciseBuilder, LessonBuilder, TraneMetadata,
     },
     data::{
@@ -61,6 +56,72 @@ fn generate_exercise_builders(note: Note) -> Result<Vec<ExerciseBuilder>> {
     Ok(builders)
 }
 
+/// Generates a first lesson which teaches how the scale is constructed.
+fn generate_basics_lesson() -> Result<LessonBuilder> {
+    let lesson_id = format!("{}::basics", COURSE_ID);
+    let intervals = ScaleType::Major.intervals()?;
+
+    let mut exercises = vec![];
+    for (index, interval) in intervals.iter().enumerate() {
+        let degree = index + 1;
+        let lesson_id_clone = lesson_id.clone();
+        let exercise = ExerciseBuilder {
+            directory_name: format!("exercise_{}", degree),
+            asset_builders: vec![
+                AssetBuilder {
+                    file_name: "front.md".to_string(),
+                    contents: formatdoc! {"
+                        What interval from the tonic is degree number {} of the major scale?
+                    ", degree}
+                    .to_string(),
+                },
+                AssetBuilder {
+                    file_name: "back.md".to_string(),
+                    contents: formatdoc! {"
+                        The interval from the tonic of degree number {} of the major scale is {}.
+                    ", degree, interval.to_string()}
+                    .to_string(),
+                },
+            ],
+            manifest_closure: Box::new(move |m| {
+                #[allow(clippy::redundant_clone)]
+                m.clone()
+                    .id(format!("{}::exercise_{}", lesson_id_clone, degree))
+                    .name(format!("Exercise {}", degree))
+                    .clone()
+            }),
+        };
+        exercises.push(exercise);
+    }
+
+    let lesson_id_clone = lesson_id.clone();
+    Ok(LessonBuilder {
+        directory_name: "basics".to_string(),
+        exercise_manifest_template: ExerciseManifestBuilder::default()
+            .course_id(COURSE_ID.to_string())
+            .lesson_id(lesson_id)
+            .exercise_type(ExerciseType::Declarative)
+            .exercise_asset(ExerciseAsset::FlashcardAsset {
+                front_path: "front.md".to_string(),
+                back_path: "back.md".to_string(),
+            })
+            .clone(),
+        asset_builders: vec![],
+        exercise_builders: exercises,
+        manifest_closure: Box::new(move |m| {
+            #[allow(clippy::redundant_clone)]
+            m.clone()
+                .id(lesson_id_clone.clone())
+                .name("Major Scale - Basic Construction".to_string())
+                .description(Some(
+                    "Learn the intervals which make up the major scale.".to_string(),
+                ))
+                .dependencies(vec![])
+                .clone()
+        }),
+    })
+}
+
 pub fn course_builder() -> Result<CourseBuilder> {
     let course_generator = CircleFifthsCourse {
         directory_name: "major_scale".to_string(),
@@ -107,7 +168,7 @@ pub fn course_builder() -> Result<CourseBuilder> {
                 exercise_builders: generate_exercise_builders(note)?,
                 manifest_closure: Box::new(move |m| {
                     let deps = match previous_note {
-                        None => vec![],
+                        None => vec![format!("{}::basics", COURSE_ID)],
                         Some(previous_note) => {
                             let dep_id = format!("{}::{}", COURSE_ID, previous_note.to_string());
                             vec![dep_id]
@@ -131,7 +192,7 @@ pub fn course_builder() -> Result<CourseBuilder> {
                 }),
             })
         }),
-        extra_lesson_builders: vec![],
+        extra_lessons_generator: Some(Box::new(|| Ok(vec![generate_basics_lesson()?]))),
     };
     course_generator.generate_course_builder()
 }

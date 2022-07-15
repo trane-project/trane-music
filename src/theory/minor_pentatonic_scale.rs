@@ -171,8 +171,7 @@ pub fn course_builder() -> Result<CourseBuilder> {
                 asset_builders: vec![],
                 exercise_builders: generate_exercise_builders(note)?,
                 manifest_closure: Box::new(move |m| {
-                    let minor_id =
-                        format!("{}::{}", minor_scale::COURSE_ID, note.to_string());
+                    let minor_id = format!("{}::{}", minor_scale::COURSE_ID, note.to_string());
                     let deps = match previous_note {
                         None => vec![format!("{}::basics", COURSE_ID), minor_id],
                         Some(previous_note) => {

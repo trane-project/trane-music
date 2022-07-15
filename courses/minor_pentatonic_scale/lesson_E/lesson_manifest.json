@@ -1,7 +1,8 @@
 {
   "id": "trane::music::theory::minor_pentatonic_scale::E",
   "dependencies": [
-    "trane::music::theory::minor_pentatonic_scale::A"
+    "trane::music::theory::minor_pentatonic_scale::A",
+    "trane::music::theory::minor_scale::E"
   ],
   "course_id": "trane::music::theory::minor_pentatonic_scale",
   "name": "Minor Pentatonic Scale - Key of E",

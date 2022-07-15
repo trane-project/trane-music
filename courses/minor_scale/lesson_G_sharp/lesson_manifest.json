@@ -1,7 +1,8 @@
 {
   "id": "trane::music::theory::minor_scale::G♯",
   "dependencies": [
-    "trane::music::theory::minor_scale::C♯"
+    "trane::music::theory::minor_scale::C♯",
+    "trane::music::theory::major_scale::B"
   ],
   "course_id": "trane::music::theory::minor_scale",
   "name": "Minor Scale - Key of G♯",

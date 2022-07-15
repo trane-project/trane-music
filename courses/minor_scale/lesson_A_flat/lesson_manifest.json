@@ -1,7 +1,8 @@
 {
   "id": "trane::music::theory::minor_scale::A♭",
   "dependencies": [
-    "trane::music::theory::minor_scale::E♭"
+    "trane::music::theory::minor_scale::E♭",
+    "trane::music::theory::major_scale::C♭"
   ],
   "course_id": "trane::music::theory::minor_scale",
   "name": "Minor Scale - Key of A♭",

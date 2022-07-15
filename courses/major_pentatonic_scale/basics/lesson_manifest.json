@@ -1,6 +1,8 @@
 {
   "id": "trane::music::theory::major_pentatonic_scale::basics",
-  "dependencies": [],
+  "dependencies": [
+    "trane::music::theory::major_scale::basics"
+  ],
   "course_id": "trane::music::theory::major_pentatonic_scale",
   "name": "Major Pentatonic Scale - Basic Construction",
   "description": "Learn the intervals which make up the major pentatonic scale.",

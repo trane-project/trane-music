@@ -118,7 +118,7 @@ fn generate_basics_lesson() -> Result<LessonBuilder> {
                 .description(Some(
                     "Learn the intervals which make up the major pentatonic scale.".to_string(),
                 ))
-                .dependencies(vec![])
+                .dependencies(vec![format!("{}::basics", major_scale::COURSE_ID)])
                 .clone()
         }),
     })
@@ -130,7 +130,7 @@ pub fn course_builder() -> Result<CourseBuilder> {
         course_manifest: CourseManifest {
             id: COURSE_ID.to_string(),
             name: "The Major Pentatonic Scale".to_string(),
-            dependencies: vec![major_scale::COURSE_ID.to_string()],
+            dependencies: vec![],
             description: Some(
                 "Learn the notes of the major pentatonic scale for all twelve keys".to_string(),
             ),
@@ -171,11 +171,12 @@ pub fn course_builder() -> Result<CourseBuilder> {
                 asset_builders: vec![],
                 exercise_builders: generate_exercise_builders(note)?,
                 manifest_closure: Box::new(move |m| {
+                    let major_id = format!("{}::{}", major_scale::COURSE_ID, note.to_string());
                     let deps = match previous_note {
-                        None => vec![format!("{}::basics", COURSE_ID)],
+                        None => vec![format!("{}::basics", COURSE_ID), major_id],
                         Some(previous_note) => {
                             let dep_id = format!("{}::{}", COURSE_ID, previous_note.to_string());
-                            vec![dep_id]
+                            vec![dep_id, major_id]
                         }
                     };
 

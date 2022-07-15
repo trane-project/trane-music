@@ -1,7 +1,8 @@
 {
   "id": "trane::music::theory::minor_scale::D",
   "dependencies": [
-    "trane::music::theory::minor_scale::A"
+    "trane::music::theory::minor_scale::A",
+    "trane::music::theory::major_scale::F"
   ],
   "course_id": "trane::music::theory::minor_scale",
   "name": "Minor Scale - Key of D",

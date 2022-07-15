@@ -1,7 +1,8 @@
 {
   "id": "trane::music::theory::major_pentatonic_scale::D♭",
   "dependencies": [
-    "trane::music::theory::major_pentatonic_scale::A♭"
+    "trane::music::theory::major_pentatonic_scale::A♭",
+    "trane::music::theory::major_scale::D♭"
   ],
   "course_id": "trane::music::theory::major_pentatonic_scale",
   "name": "Major Pentatonic Scale - Key of D♭",

@@ -1,6 +1,7 @@
 use std::collections::BTreeMap;
 
 use indoc::indoc;
+use lazy_static::lazy_static;
 use trane::{
     course_builder::{
         music::{notes::*, MusicMetadata},
@@ -11,14 +12,17 @@ use trane::{
         LessonManifestBuilder,
     },
 };
+use ustr::Ustr;
 
 use crate::{guitar::generate_asset_builders, AUTHORS};
 
-pub static COURSE_ID: &str = "trane::music::guitar::basic_fretboard";
-pub static LESSON1_ID: &str = "trane::music::guitar::basic_fretboard::lesson_1";
-pub static LESSON2_ID: &str = "trane::music::guitar::basic_fretboard::lesson_2";
-pub static LESSON3_ID: &str = "trane::music::guitar::basic_fretboard::lesson_3";
-pub static LESSON4_ID: &str = "trane::music::guitar::basic_fretboard::lesson_4";
+lazy_static! {
+    pub static ref COURSE_ID: Ustr = Ustr::from("trane::music::guitar::basic_fretboard");
+    pub static ref LESSON1_ID: Ustr = Ustr::from("trane::music::guitar::basic_fretboard::lesson_1");
+    pub static ref LESSON2_ID: Ustr = Ustr::from("trane::music::guitar::basic_fretboard::lesson_2");
+    pub static ref LESSON3_ID: Ustr = Ustr::from("trane::music::guitar::basic_fretboard::lesson_3");
+    pub static ref LESSON4_ID: Ustr = Ustr::from("trane::music::guitar::basic_fretboard::lesson_4");
+}
 
 static LESSON1_TEMPO: &str = "at a slow tempo without a metronome";
 static LESSON2_TEMPO: &str = "at 40 bpm using a metronome";
@@ -27,24 +31,21 @@ static LESSON4_TEMPO: &str = "gradually increasing the speed to 80 bpm using a m
 
 fn generate_exercise_builders(
     exercises: Vec<(usize, Note)>,
-    lesson_id: &str,
+    lesson_id: Ustr,
     tempo: &str,
 ) -> Vec<ExerciseBuilder> {
     exercises
         .into_iter()
-        .map(|(number, note)| {
-            let cloned_id = lesson_id.to_string();
-            ExerciseBuilder {
-                directory_name: format!("exercise_{}", number),
-                manifest_closure: Box::new(move |m| {
-                    #[allow(clippy::redundant_clone)]
-                    m.clone()
-                        .id(format!("{}::exercise_{}", cloned_id, number))
-                        .name(format!("Exercise {}", number))
-                        .clone()
-                }),
-                asset_builders: generate_asset_builders(note, tempo),
-            }
+        .map(|(number, note)| ExerciseBuilder {
+            directory_name: format!("exercise_{}", number),
+            manifest_closure: Box::new(move |m| {
+                #[allow(clippy::redundant_clone)]
+                m.clone()
+                    .id(format!("{}::exercise_{}", lesson_id, number))
+                    .name(format!("Exercise {}", number))
+                    .clone()
+            }),
+            asset_builders: generate_asset_builders(note, tempo),
         })
         .collect()
 }
@@ -65,8 +66,8 @@ pub fn course_builder() -> CourseBuilder {
             .to_string(),
         }],
         exercise_manifest_template: ExerciseManifestBuilder::default()
-            .lesson_id(LESSON1_ID.to_string())
-            .course_id(COURSE_ID.to_string())
+            .lesson_id(*LESSON1_ID)
+            .course_id(*COURSE_ID)
             .exercise_type(ExerciseType::Procedural)
             .exercise_asset(ExerciseAsset::FlashcardAsset {
                 front_path: "front.md".to_string(),
@@ -76,7 +77,7 @@ pub fn course_builder() -> CourseBuilder {
         manifest_closure: Box::new(|m| {
             #[allow(clippy::redundant_clone)]
             m.clone()
-                .id(LESSON1_ID.to_string())
+                .id(*LESSON1_ID)
                 .dependencies(vec![])
                 .name("Lesson 1".to_string())
                 .lesson_instructions(Some(BasicAsset::MarkdownAsset {
@@ -97,7 +98,7 @@ pub fn course_builder() -> CourseBuilder {
                 (6, Note::F),
                 (7, Note::G),
             ],
-            LESSON1_ID,
+            *LESSON1_ID,
             LESSON1_TEMPO,
         ),
     };
@@ -117,8 +118,8 @@ pub fn course_builder() -> CourseBuilder {
             .to_string(),
         }],
         exercise_manifest_template: ExerciseManifestBuilder::default()
-            .lesson_id(LESSON2_ID.to_string())
-            .course_id(COURSE_ID.to_string())
+            .lesson_id(*LESSON2_ID)
+            .course_id(*COURSE_ID)
             .exercise_type(ExerciseType::Procedural)
             .exercise_asset(ExerciseAsset::FlashcardAsset {
                 front_path: "front.md".to_string(),
@@ -128,8 +129,8 @@ pub fn course_builder() -> CourseBuilder {
         manifest_closure: Box::new(|m| {
             #[allow(clippy::redundant_clone)]
             m.clone()
-                .id(LESSON2_ID.to_string())
-                .dependencies(vec![LESSON1_ID.to_string()])
+                .id(*LESSON2_ID)
+                .dependencies(vec![*LESSON1_ID])
                 .name("Lesson 2".to_string())
                 .lesson_instructions(Some(BasicAsset::MarkdownAsset {
                     path: "instructions.md".to_string(),
@@ -150,7 +151,7 @@ pub fn course_builder() -> CourseBuilder {
                 (6, Note::F),
                 (7, Note::G),
             ],
-            LESSON2_ID,
+            *LESSON2_ID,
             LESSON2_TEMPO,
         ),
     };
@@ -170,8 +171,8 @@ pub fn course_builder() -> CourseBuilder {
             .to_string(),
         }],
         exercise_manifest_template: ExerciseManifestBuilder::default()
-            .lesson_id(LESSON3_ID.to_string())
-            .course_id(COURSE_ID.to_string())
+            .lesson_id(*LESSON3_ID)
+            .course_id(*COURSE_ID)
             .exercise_type(ExerciseType::Procedural)
             .exercise_asset(ExerciseAsset::FlashcardAsset {
                 front_path: "front.md".to_string(),
@@ -181,8 +182,8 @@ pub fn course_builder() -> CourseBuilder {
         manifest_closure: Box::new(|m| {
             #[allow(clippy::redundant_clone)]
             m.clone()
-                .id(LESSON3_ID.to_string())
-                .dependencies(vec![LESSON2_ID.to_string()])
+                .id(*LESSON3_ID)
+                .dependencies(vec![*LESSON2_ID])
                 .name("Lesson 3".to_string())
                 .lesson_instructions(Some(BasicAsset::MarkdownAsset {
                     path: "instructions.md".to_string(),
@@ -210,7 +211,7 @@ pub fn course_builder() -> CourseBuilder {
                 (13, Note::G_FLAT),
                 (14, Note::G_SHARP),
             ],
-            LESSON3_ID,
+            *LESSON3_ID,
             LESSON3_TEMPO,
         ),
     };
@@ -242,7 +243,7 @@ pub fn course_builder() -> CourseBuilder {
             #[allow(clippy::redundant_clone)]
             m.clone()
                 .id(LESSON4_ID.to_string())
-                .dependencies(vec![LESSON3_ID.to_string()])
+                .dependencies(vec![*LESSON3_ID])
                 .name("Lesson 4".to_string())
                 .lesson_instructions(Some(BasicAsset::MarkdownAsset {
                     path: "instructions.md".to_string(),
@@ -276,7 +277,7 @@ pub fn course_builder() -> CourseBuilder {
                 (20, Note::G_FLAT),
                 (21, Note::G_SHARP),
             ],
-            LESSON4_ID,
+            *LESSON4_ID,
             LESSON4_TEMPO,
         ),
     };
@@ -284,7 +285,7 @@ pub fn course_builder() -> CourseBuilder {
     CourseBuilder {
         directory_name: "basic_guitar_fretboard".to_string(),
         course_manifest: CourseManifest {
-            id: COURSE_ID.to_string(),
+            id: *COURSE_ID,
             name: "Basic Guitar Fretboard".to_string(),
             dependencies: vec![],
             description: Some("Learn the position of notes in the guitar frateboard".to_string()),
@@ -306,7 +307,7 @@ pub fn course_builder() -> CourseBuilder {
         asset_builders: vec![],
         lesson_builders: vec![lesson1, lesson2, lesson3, lesson4],
         lesson_manifest_template: LessonManifestBuilder::default()
-            .course_id(COURSE_ID.to_string())
+            .course_id(*COURSE_ID)
             .clone(),
     }
 }

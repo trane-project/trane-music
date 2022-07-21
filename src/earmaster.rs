@@ -11,6 +11,7 @@ use trane::{
         LessonManifestBuilder,
     },
 };
+use ustr::Ustr;
 
 use crate::AUTHORS;
 
@@ -18,32 +19,32 @@ use crate::AUTHORS;
 /// Earmaster unit with the given ID.
 struct EarMasterLesson {
     /// A shorthand for for the ID of the lesson "1.1".
-    id: String,
+    id: Ustr,
 
     /// The full name of the lesson,
     name: String,
 
     /// The dependencies of this lesson, also written in the short ID format.
-    dependencies: Vec<String>,
+    dependencies: Vec<Ustr>,
 }
 
 impl EarMasterLesson {
     fn new(id: &str, name: &str, dependencies: Vec<&str>) -> Self {
         Self {
-            id: id.to_string(),
+            id: Ustr::from(id),
             name: name.to_string(),
-            dependencies: dependencies.iter().map(|&id| id.to_string()).collect(),
+            dependencies: dependencies.iter().map(|&id| Ustr::from(id)).collect(),
         }
     }
 
     /// Generates a LessonBuilder based on this object.
-    fn lesson_builder(&self, course_id: &str, course_name: &str) -> LessonBuilder {
+    fn lesson_builder(&self, course_id: &Ustr, course_name: &str) -> LessonBuilder {
         let lesson_id = format!("{}::{}", course_id, self.id);
         let exercise_id = format!("{}::exercise", lesson_id);
-        let dependencies: Vec<String> = self
+        let dependencies: Vec<Ustr> = self
             .dependencies
             .iter()
-            .map(|id| format!("{}::{}", course_id, id))
+            .map(|id| Ustr::from(&format!("{}::{}", course_id, id)))
             .collect();
 
         let lesson_id_clone = lesson_id.clone();
@@ -62,7 +63,7 @@ impl EarMasterLesson {
             exercise_manifest_template: ExerciseManifestBuilder::default()
                 .id(exercise_id)
                 .lesson_id(lesson_id)
-                .course_id(course_id.to_string())
+                .course_id(*course_id)
                 .name(self.name.clone())
                 .exercise_type(ExerciseType::Procedural)
                 .exercise_asset(ExerciseAsset::FlashcardAsset {
@@ -98,7 +99,7 @@ impl EarMasterLesson {
 /// Represents a course based on one of the activities in EarMaster.
 struct EarMasterCourse {
     /// The full ID for this course.
-    id: String,
+    id: Ustr,
 
     /// The name of the course.
     name: String,
@@ -130,7 +131,7 @@ impl EarMasterCourse {
         CourseBuilder {
             directory_name: self.directory_name.clone(),
             course_manifest: CourseManifest {
-                id: self.id.clone(),
+                id: self.id,
                 name: self.name.clone(),
                 description: Some(format!("Practice EarMaster activity {}", self.name)),
                 dependencies: vec![],
@@ -141,9 +142,7 @@ impl EarMasterCourse {
                 }),
                 course_material: None,
             },
-            lesson_manifest_template: LessonManifestBuilder::default()
-                .course_id(self.id.clone())
-                .clone(),
+            lesson_manifest_template: LessonManifestBuilder::default().course_id(self.id).clone(),
             lesson_builders,
             asset_builders: vec![AssetBuilder {
                 file_name: "instructions.md".to_string(),

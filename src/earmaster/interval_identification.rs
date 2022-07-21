@@ -1,14 +1,18 @@
 use std::collections::BTreeMap;
 
+use lazy_static::lazy_static;
 use trane::course_builder::CourseBuilder;
+use ustr::Ustr;
 
 use super::{EarMasterCourse, EarMasterLesson};
 
-static COURSE_ID: &str = "trane::music::earmaster::interval_identification";
+lazy_static! {
+    pub static ref COURSE_ID: Ustr = Ustr::from("trane::music::earmaster::interval_identification");
+}
 
 pub fn course_builder() -> CourseBuilder {
     let earmaster_course = EarMasterCourse {
-        id: COURSE_ID.to_string(),
+        id: *COURSE_ID,
         name: "Interval Identification".to_string(),
         directory_name: "earmaster_interval_identification".to_string(),
         metadata: Some(BTreeMap::from([])),

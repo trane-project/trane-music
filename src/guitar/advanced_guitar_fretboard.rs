@@ -1,6 +1,7 @@
 use std::collections::BTreeMap;
 
 use indoc::indoc;
+use lazy_static::lazy_static;
 use trane::{
     course_builder::{
         music::MusicMetadata, AssetBuilder, CourseBuilder, ExerciseBuilder, LessonBuilder,
@@ -10,22 +11,29 @@ use trane::{
         CourseManifest, ExerciseAsset, ExerciseManifestBuilder, ExerciseType, LessonManifestBuilder,
     },
 };
+use ustr::Ustr;
 
 use crate::{guitar::basic_guitar_fretboard, AUTHORS};
 
-pub static COURSE_ID: &str = "trane::music::guitar::advanced_fretboard";
-pub static LESSON1_ID: &str = "trane::music::guitar::advanced_fretboard::lesson_1";
-pub static LESSON2_ID: &str = "trane::music::guitar::advanced_fretboard::lesson_2";
-pub static LESSON3_ID: &str = "trane::music::guitar::advanced_fretboard::lesson_3";
-pub static LESSON4_ID: &str = "trane::music::guitar::advanced_fretboard::lesson_4";
+lazy_static! {
+    pub static ref COURSE_ID: Ustr = Ustr::from("trane::music::guitar::advanced_fretboard");
+    pub static ref LESSON1_ID: Ustr =
+        Ustr::from("trane::music::guitar::advanced_fretboard::lesson_1");
+    pub static ref LESSON2_ID: Ustr =
+        Ustr::from("trane::music::guitar::advanced_fretboard::lesson_2");
+    pub static ref LESSON3_ID: Ustr =
+        Ustr::from("trane::music::guitar::advanced_fretboard::lesson_3");
+    pub static ref LESSON4_ID: Ustr =
+        Ustr::from("trane::music::guitar::advanced_fretboard::lesson_4");
+}
 
 pub fn course_builder() -> CourseBuilder {
     let lesson1: LessonBuilder = LessonBuilder {
         directory_name: "lesson_1".to_string(),
         asset_builders: vec![],
         exercise_manifest_template: ExerciseManifestBuilder::default()
-            .lesson_id(LESSON1_ID.to_string())
-            .course_id(COURSE_ID.to_string())
+            .lesson_id(*LESSON1_ID)
+            .course_id(*COURSE_ID)
             .exercise_type(ExerciseType::Procedural)
             .exercise_asset(ExerciseAsset::FlashcardAsset {
                 front_path: "front.md".to_string(),
@@ -35,7 +43,7 @@ pub fn course_builder() -> CourseBuilder {
         manifest_closure: Box::new(|m| {
             #[allow(clippy::redundant_clone)]
             m.clone()
-                .id(LESSON1_ID.to_string())
+                .id(*LESSON1_ID)
                 .dependencies(vec![])
                 .name("Lesson 1".to_string())
                 .description(Some(
@@ -48,7 +56,7 @@ pub fn course_builder() -> CourseBuilder {
             manifest_closure: Box::new(move |m| {
                 #[allow(clippy::redundant_clone)]
                 m.clone()
-                    .id(format!("{}::exercise_1", LESSON1_ID))
+                    .id(format!("{}::exercise_1", *LESSON1_ID))
                     .name("Exercise 1".to_string())
                     .clone()
             }),
@@ -83,8 +91,8 @@ pub fn course_builder() -> CourseBuilder {
         directory_name: "lesson_2".to_string(),
         asset_builders: vec![],
         exercise_manifest_template: ExerciseManifestBuilder::default()
-            .lesson_id(LESSON2_ID.to_string())
-            .course_id(COURSE_ID.to_string())
+            .lesson_id(*LESSON2_ID)
+            .course_id(*COURSE_ID)
             .exercise_type(ExerciseType::Procedural)
             .exercise_asset(ExerciseAsset::FlashcardAsset {
                 front_path: "front.md".to_string(),
@@ -94,8 +102,8 @@ pub fn course_builder() -> CourseBuilder {
         manifest_closure: Box::new(|m| {
             #[allow(clippy::redundant_clone)]
             m.clone()
-                .id(LESSON2_ID.to_string())
-                .dependencies(vec![LESSON1_ID.to_string()])
+                .id(*LESSON2_ID)
+                .dependencies(vec![*LESSON1_ID])
                 .name("Lesson 2".to_string())
                 .description(Some(
                     "Find the location of seven random notes in the fretboard".to_string(),
@@ -107,7 +115,7 @@ pub fn course_builder() -> CourseBuilder {
             manifest_closure: Box::new(move |m| {
                 #[allow(clippy::redundant_clone)]
                 m.clone()
-                    .id(format!("{}::exercise_1", LESSON2_ID))
+                    .id(format!("{}::exercise_1", *LESSON2_ID))
                     .name("Exercise 1".to_string())
                     .clone()
             }),
@@ -142,8 +150,8 @@ pub fn course_builder() -> CourseBuilder {
         directory_name: "lesson_3".to_string(),
         asset_builders: vec![],
         exercise_manifest_template: ExerciseManifestBuilder::default()
-            .lesson_id(LESSON3_ID.to_string())
-            .course_id(COURSE_ID.to_string())
+            .lesson_id(*LESSON3_ID)
+            .course_id(*COURSE_ID)
             .exercise_type(ExerciseType::Procedural)
             .exercise_asset(ExerciseAsset::FlashcardAsset {
                 front_path: "front.md".to_string(),
@@ -153,8 +161,8 @@ pub fn course_builder() -> CourseBuilder {
         manifest_closure: Box::new(|m| {
             #[allow(clippy::redundant_clone)]
             m.clone()
-                .id(LESSON3_ID.to_string())
-                .dependencies(vec![LESSON2_ID.to_string()])
+                .id(*LESSON3_ID)
+                .dependencies(vec![*LESSON2_ID])
                 .name("Lesson 3".to_string())
                 .description(Some(
                     "Find the location of two random notes in the fretboard".to_string(),
@@ -166,7 +174,7 @@ pub fn course_builder() -> CourseBuilder {
             manifest_closure: Box::new(move |m| {
                 #[allow(clippy::redundant_clone)]
                 m.clone()
-                    .id(format!("{}::exercise_1", LESSON3_ID))
+                    .id(format!("{}::exercise_1", *LESSON3_ID))
                     .name("Exercise 1".to_string())
                     .clone()
             }),
@@ -202,8 +210,8 @@ pub fn course_builder() -> CourseBuilder {
         directory_name: "lesson_4".to_string(),
         asset_builders: vec![],
         exercise_manifest_template: ExerciseManifestBuilder::default()
-            .lesson_id(LESSON4_ID.to_string())
-            .course_id(COURSE_ID.to_string())
+            .lesson_id(*LESSON4_ID)
+            .course_id(*COURSE_ID)
             .exercise_type(ExerciseType::Procedural)
             .exercise_asset(ExerciseAsset::FlashcardAsset {
                 front_path: "front.md".to_string(),
@@ -213,8 +221,8 @@ pub fn course_builder() -> CourseBuilder {
         manifest_closure: Box::new(|m| {
             #[allow(clippy::redundant_clone)]
             m.clone()
-                .id(LESSON4_ID.to_string())
-                .dependencies(vec![LESSON3_ID.to_string()])
+                .id(*LESSON4_ID)
+                .dependencies(vec![*LESSON3_ID])
                 .name("Lesson 4".to_string())
                 .description(Some(
                     "Find the location of seven random notes in the fretboard".to_string(),
@@ -226,7 +234,7 @@ pub fn course_builder() -> CourseBuilder {
             manifest_closure: Box::new(move |m| {
                 #[allow(clippy::redundant_clone)]
                 m.clone()
-                    .id(format!("{}::exercise_1", LESSON4_ID))
+                    .id(format!("{}::exercise_1", *LESSON4_ID))
                     .name("Exercise 1".to_string())
                     .clone()
             }),
@@ -261,9 +269,9 @@ pub fn course_builder() -> CourseBuilder {
     CourseBuilder {
         directory_name: "advanced_guitar_fretboard".to_string(),
         course_manifest: CourseManifest {
-            id: COURSE_ID.to_string(),
+            id: *COURSE_ID,
             name: "Advanced Guitar Fretboard".to_string(),
-            dependencies: vec![basic_guitar_fretboard::LESSON3_ID.to_string()],
+            dependencies: vec![*basic_guitar_fretboard::LESSON3_ID],
             description: Some("Learn the position of notes in the guitar frateboard".to_string()),
             authors: Some(vec![AUTHORS.to_string()]),
             metadata: Some(BTreeMap::from([
@@ -283,7 +291,7 @@ pub fn course_builder() -> CourseBuilder {
         asset_builders: vec![],
         lesson_builders: vec![lesson1, lesson2, lesson3, lesson4],
         lesson_manifest_template: LessonManifestBuilder::default()
-            .course_id(COURSE_ID.to_string())
+            .course_id(*COURSE_ID)
             .clone(),
     }
 }

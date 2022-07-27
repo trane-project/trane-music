@@ -1,4 +1,5 @@
 //! Module containing EarMaster courses.
+pub mod chord_identification;
 pub mod interval_identification;
 
 use std::collections::BTreeMap;
@@ -149,8 +150,8 @@ impl EarMasterCourse {
                 contents: formatdoc! {"
                         This course contains the exercises from the {} 
                         activity in EarMaster 7.2. The exercises are referenced by the same
-                        numbers as in EarMaster. If you do not have a copy, you can add this
-                        course to the blacklist.
+                        numbers as in EarMaster. If you do not have a copy of EarMaster, you
+                        can add this course to the blacklist.
                     ", self.name},
             }],
         }

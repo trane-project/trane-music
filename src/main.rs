@@ -11,6 +11,7 @@ static AUTHORS: &str = "The Trane Project";
 
 fn build_courses(library_root: &Path) -> Result<()> {
     let course_builders = vec![
+        earmaster::chord_identification::course_builder(),
         earmaster::interval_identification::course_builder(),
         guitar::basic_guitar_fretboard::course_builder(),
         guitar::advanced_guitar_fretboard::course_builder(),

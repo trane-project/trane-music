@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::chord_identification::21.1::exercise",
+  "lesson_id": "trane::music::earmaster::chord_identification::21.1",
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "Chords with a Major 6th or Diminished 7th - Ascending",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

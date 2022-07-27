@@ -1,0 +1,13 @@
+{
+  "id": "trane::music::earmaster::chord_identification::18.3",
+  "dependencies": [
+    "trane::music::earmaster::chord_identification::9.4",
+    "trane::music::earmaster::chord_identification::10.4"
+  ],
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "Mi7, Mi,maj7, Dim7, Mi7(b5) & dim,maj7 - Harmonic",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

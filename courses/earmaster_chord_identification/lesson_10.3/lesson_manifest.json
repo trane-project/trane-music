@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::chord_identification::10.3",
+  "dependencies": [
+    "trane::music::earmaster::chord_identification::7.4"
+  ],
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "Dim7, Mi7(b5) & dim,maj7 - Harmonic",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

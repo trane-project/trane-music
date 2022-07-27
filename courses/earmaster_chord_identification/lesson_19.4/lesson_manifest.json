@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::chord_identification::19.4",
+  "dependencies": [
+    "trane::music::earmaster::chord_identification::19.1",
+    "trane::music::earmaster::chord_identification::19.2",
+    "trane::music::earmaster::chord_identification::19.3"
+  ],
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "All the Maj7 Chords - Harmonic, Ascending & Descending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

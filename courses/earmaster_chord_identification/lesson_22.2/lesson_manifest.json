@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::chord_identification::22.2",
+  "dependencies": [
+    "trane::music::earmaster::chord_identification::19.4",
+    "trane::music::earmaster::chord_identification::20.4",
+    "trane::music::earmaster::chord_identification::21.4"
+  ],
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "All 7th Chords - Descending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

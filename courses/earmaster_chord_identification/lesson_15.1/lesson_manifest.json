@@ -1,0 +1,13 @@
+{
+  "id": "trane::music::earmaster::chord_identification::15.1",
+  "dependencies": [
+    "trane::music::earmaster::chord_identification::13.4",
+    "trane::music::earmaster::chord_identification::14.4"
+  ],
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "7(sus4), 7(sus2), maj7(sus2) & maj7(sus4) - Ascending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

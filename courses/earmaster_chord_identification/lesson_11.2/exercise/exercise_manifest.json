@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::chord_identification::11.2::exercise",
+  "lesson_id": "trane::music::earmaster::chord_identification::11.2",
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "7(b5) & maj7(b5) - Descending",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

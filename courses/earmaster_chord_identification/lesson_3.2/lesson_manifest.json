@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::chord_identification::3.2",
+  "dependencies": [
+    "trane::music::earmaster::chord_identification::2.4"
+  ],
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "Major, Major(b5) & Aug - Descending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

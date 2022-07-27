@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::chord_identification::20.4",
+  "dependencies": [
+    "trane::music::earmaster::chord_identification::20.1",
+    "trane::music::earmaster::chord_identification::20.2",
+    "trane::music::earmaster::chord_identification::20.3"
+  ],
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "All chords with a minor 7th - Harmonic, Ascending & Descending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

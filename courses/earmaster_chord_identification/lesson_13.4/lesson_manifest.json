@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::chord_identification::13.4",
+  "dependencies": [
+    "trane::music::earmaster::chord_identification::13.1",
+    "trane::music::earmaster::chord_identification::13.2",
+    "trane::music::earmaster::chord_identification::13.3"
+  ],
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "7(sus4) & 7(sus2) - Harmonic, Ascending & Descending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

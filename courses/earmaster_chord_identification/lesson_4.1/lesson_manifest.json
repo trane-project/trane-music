@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::chord_identification::4.1",
+  "dependencies": [
+    "trane::music::earmaster::chord_identification::3.4"
+  ],
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "Minor & Dim - Ascending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

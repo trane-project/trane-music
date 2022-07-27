@@ -1,0 +1,20 @@
+{
+  "id": "trane::music::earmaster::chord_identification",
+  "name": "Chord Identification",
+  "dependencies": [],
+  "description": "Practice EarMaster activity Chord Identification",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "earmaster": [
+      "true"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": {
+    "MarkdownAsset": {
+      "path": "instructions.md"
+    }
+  }
+}

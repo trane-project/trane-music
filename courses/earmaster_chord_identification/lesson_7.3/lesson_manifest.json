@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::chord_identification::7.3",
+  "dependencies": [
+    "trane::music::earmaster::chord_identification::6.4"
+  ],
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "Major, Minor, Dim, Major(b5), Aug, Sus2 & Sus4 - Harmonic",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

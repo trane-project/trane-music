@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::chord_identification::22.4",
+  "dependencies": [
+    "trane::music::earmaster::chord_identification::22.1",
+    "trane::music::earmaster::chord_identification::22.2",
+    "trane::music::earmaster::chord_identification::22.3"
+  ],
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "All 7th Chords - Harmonic, Ascending & Descending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

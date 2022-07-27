@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::chord_identification::11.2",
+  "dependencies": [
+    "trane::music::earmaster::chord_identification::7.4"
+  ],
+  "course_id": "trane::music::earmaster::chord_identification",
+  "name": "7(b5) & maj7(b5) - Descending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

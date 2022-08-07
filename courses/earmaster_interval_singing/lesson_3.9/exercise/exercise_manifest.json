@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::interval_singing::3.9::exercise",
+  "lesson_id": "trane::music::earmaster::interval_singing::3.9",
+  "course_id": "trane::music::earmaster::interval_singing",
+  "name": "Do - Ti",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

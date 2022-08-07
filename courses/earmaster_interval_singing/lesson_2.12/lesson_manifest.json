@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::interval_singing::2.12",
+  "dependencies": [
+    "trane::music::earmaster::interval_singing::2.11"
+  ],
+  "course_id": "trane::music::earmaster::interval_singing",
+  "name": "All descending intervals from Do",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

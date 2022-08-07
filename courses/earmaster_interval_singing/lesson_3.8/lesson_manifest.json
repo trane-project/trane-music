@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::interval_singing::3.8",
+  "dependencies": [
+    "trane::music::earmaster::interval_singing::3.7"
+  ],
+  "course_id": "trane::music::earmaster::interval_singing",
+  "name": "Do - La",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

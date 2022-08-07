@@ -1,0 +1,13 @@
+{
+  "id": "trane::music::earmaster::interval_singing::2.6",
+  "dependencies": [
+    "trane::music::earmaster::interval_singing::2.4",
+    "trane::music::earmaster::interval_singing::2.5"
+  ],
+  "course_id": "trane::music::earmaster::interval_singing",
+  "name": "Do - So and Do - Fa",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

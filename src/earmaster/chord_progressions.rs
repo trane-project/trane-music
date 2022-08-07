@@ -28,7 +28,11 @@ pub fn course_builder() -> CourseBuilder {
             ),
             EarMasterLesson::new("1.6", "Various dominant-tonic combinations", vec!["1.5"]),
             EarMasterLesson::new("1.7", "II - V - I combinations", vec!["1.6"]),
-            EarMasterLesson::new("1.8", "II - V - I  and II - bII - I combinations", vec!["1.7"]),
+            EarMasterLesson::new(
+                "1.8",
+                "II - V - I  and II - bII - I combinations",
+                vec!["1.7"],
+            ),
             EarMasterLesson::new("1.9", "IV - I combinations (plagal cadences)", vec!["1.8"]),
             EarMasterLesson::new("1.10", "Two mediant combinations", vec!["1.9"]),
             EarMasterLesson::new("1.11", "Four mediant combinations", vec!["1.10"]),

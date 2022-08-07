@@ -1,0 +1,20 @@
+{
+  "id": "trane::music::earmaster::chord_progressions",
+  "name": "Chord Progressions",
+  "dependencies": [],
+  "description": "Practice EarMaster activity Chord Progressions",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "earmaster": [
+      "true"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": {
+    "MarkdownAsset": {
+      "path": "instructions.md"
+    }
+  }
+}

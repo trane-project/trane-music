@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::chord_progressions::1.18::exercise",
+  "lesson_id": "trane::music::earmaster::chord_progressions::1.18",
+  "course_id": "trane::music::earmaster::chord_progressions",
+  "name": "Modulations #1",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

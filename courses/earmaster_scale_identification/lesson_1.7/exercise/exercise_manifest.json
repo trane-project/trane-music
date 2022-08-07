@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::scale_identification::1.7::exercise",
+  "lesson_id": "trane::music::earmaster::scale_identification::1.7",
+  "course_id": "trane::music::earmaster::scale_identification",
+  "name": "Phrygian (#6), Altered and Dim",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

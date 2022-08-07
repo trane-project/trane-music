@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::scale_identification::1.4",
+  "dependencies": [
+    "trane::music::earmaster::scale_identification::1.3"
+  ],
+  "course_id": "trane::music::earmaster::scale_identification",
+  "name": "All modes and harmonic and melodic minor",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

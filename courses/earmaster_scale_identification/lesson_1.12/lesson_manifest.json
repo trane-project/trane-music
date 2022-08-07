@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::scale_identification::1.12",
+  "dependencies": [
+    "trane::music::earmaster::scale_identification::1.11"
+  ],
+  "course_id": "trane::music::earmaster::scale_identification",
+  "name": "All modes - descending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

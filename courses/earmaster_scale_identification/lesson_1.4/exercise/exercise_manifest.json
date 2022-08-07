@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::scale_identification::1.4::exercise",
+  "lesson_id": "trane::music::earmaster::scale_identification::1.4",
+  "course_id": "trane::music::earmaster::scale_identification",
+  "name": "All modes and harmonic and melodic minor",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

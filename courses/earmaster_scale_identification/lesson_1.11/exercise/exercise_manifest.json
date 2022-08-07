@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::scale_identification::1.11::exercise",
+  "lesson_id": "trane::music::earmaster::scale_identification::1.11",
+  "course_id": "trane::music::earmaster::scale_identification",
+  "name": "The two pentatonic scales",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

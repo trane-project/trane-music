@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::scale_identification::1.13::exercise",
+  "lesson_id": "trane::music::earmaster::scale_identification::1.13",
+  "course_id": "trane::music::earmaster::scale_identification",
+  "name": "Derivatives of harmonic minor - descending",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

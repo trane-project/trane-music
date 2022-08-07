@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::scale_identification::1.8",
+  "dependencies": [
+    "trane::music::earmaster::scale_identification::1.7"
+  ],
+  "course_id": "trane::music::earmaster::scale_identification",
+  "name": "Derivatives of melodic minor, Whole tone and Dim",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

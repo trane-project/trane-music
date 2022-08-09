@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::rhythm_clapback::15.9",
+  "dependencies": [
+    "trane::music::earmaster::rhythm_clapback::15.8"
+  ],
+  "course_id": "trane::music::earmaster::rhythm_clapback",
+  "name": "4/4 - 1 bar: Quarter notes, 16th Triplets",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

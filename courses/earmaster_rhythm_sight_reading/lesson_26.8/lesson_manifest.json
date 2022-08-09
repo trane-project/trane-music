@@ -1,9 +1,9 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::26.8",
+  "id": "trane::music::earmaster::rhythm_sight_reading::26.8",
   "dependencies": [
-    "trane::music::earmaster::rhthym_sight_reading::26.7"
+    "trane::music::earmaster::rhythm_sight_reading::26.7"
   ],
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "3/4 - 4 bars: 32nd, 16th, 8th & Quarter notes - including rests",
   "description": null,
   "metadata": null,

@@ -1,7 +1,7 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::22.3::exercise",
-  "lesson_id": "trane::music::earmaster::rhthym_sight_reading::22.3",
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "id": "trane::music::earmaster::rhythm_sight_reading::22.3::exercise",
+  "lesson_id": "trane::music::earmaster::rhythm_sight_reading::22.3",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "2/2, 3/2 & 4/2 - 4 bars: Quarter, Half & Whole notes",
   "description": null,
   "exercise_type": "Procedural",

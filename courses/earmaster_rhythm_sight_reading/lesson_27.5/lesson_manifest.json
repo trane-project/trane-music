@@ -1,9 +1,9 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::27.5",
+  "id": "trane::music::earmaster::rhythm_sight_reading::27.5",
   "dependencies": [
-    "trane::music::earmaster::rhthym_sight_reading::27.4"
+    "trane::music::earmaster::rhythm_sight_reading::27.4"
   ],
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "Asymmetrical meters I",
   "description": null,
   "metadata": null,

@@ -7,7 +7,7 @@ use ustr::Ustr;
 use super::{EarMasterCourse, EarMasterLesson};
 
 lazy_static! {
-    pub static ref COURSE_ID: Ustr = Ustr::from("trane::music::earmaster::rhthym_sight_reading");
+    pub static ref COURSE_ID: Ustr = Ustr::from("trane::music::earmaster::rhythm_sight_reading");
 }
 
 pub fn course_builder() -> CourseBuilder {

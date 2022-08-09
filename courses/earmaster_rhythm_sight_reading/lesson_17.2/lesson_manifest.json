@@ -1,9 +1,9 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::17.2",
+  "id": "trane::music::earmaster::rhythm_sight_reading::17.2",
   "dependencies": [
-    "trane::music::earmaster::rhthym_sight_reading::17.1"
+    "trane::music::earmaster::rhythm_sight_reading::17.1"
   ],
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "3/8, 4/8 & 6/8 - 4 bars: 16th & 8th notes - including rests",
   "description": null,
   "metadata": null,

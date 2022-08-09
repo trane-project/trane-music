@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::rhythm_clapback::20.5",
+  "dependencies": [
+    "trane::music::earmaster::rhythm_clapback::20.4"
+  ],
+  "course_id": "trane::music::earmaster::rhythm_clapback",
+  "name": "12/8 - 1 bar: 8th notes, Quarter dotted notes",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

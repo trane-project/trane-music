@@ -1,9 +1,9 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::1.7",
+  "id": "trane::music::earmaster::rhythm_sight_reading::1.7",
   "dependencies": [
-    "trane::music::earmaster::rhthym_sight_reading::1.6"
+    "trane::music::earmaster::rhythm_sight_reading::1.6"
   ],
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "4/4 - 4 bars: Quarter, Half & Whole notes - including rests",
   "description": null,
   "metadata": null,

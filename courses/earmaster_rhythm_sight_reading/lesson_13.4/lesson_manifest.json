@@ -1,11 +1,11 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::13.4",
+  "id": "trane::music::earmaster::rhythm_sight_reading::13.4",
   "dependencies": [
-    "trane::music::earmaster::rhthym_sight_reading::13.1",
-    "trane::music::earmaster::rhthym_sight_reading::13.2",
-    "trane::music::earmaster::rhthym_sight_reading::13.3"
+    "trane::music::earmaster::rhythm_sight_reading::13.1",
+    "trane::music::earmaster::rhythm_sight_reading::13.2",
+    "trane::music::earmaster::rhythm_sight_reading::13.3"
   ],
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "2/4, 3/4 & 4/4 - 4 bars: 16th, 8th, Quarter & Half notes - including rests",
   "description": null,
   "metadata": null,

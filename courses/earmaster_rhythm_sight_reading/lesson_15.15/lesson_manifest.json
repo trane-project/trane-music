@@ -1,9 +1,9 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::15.15",
+  "id": "trane::music::earmaster::rhythm_sight_reading::15.15",
   "dependencies": [
-    "trane::music::earmaster::rhthym_sight_reading::15.14"
+    "trane::music::earmaster::rhythm_sight_reading::15.14"
   ],
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "3/4 - 4 bars: 16th, 8th, Quarter & Half Triplets - including rests",
   "description": null,
   "metadata": null,

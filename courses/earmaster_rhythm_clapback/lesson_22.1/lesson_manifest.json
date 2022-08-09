@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::rhythm_clapback::22.1",
+  "dependencies": [
+    "trane::music::earmaster::rhythm_clapback::21.4"
+  ],
+  "course_id": "trane::music::earmaster::rhythm_clapback",
+  "name": "2/2, 3/2 & 4/2 - 1 bar: Half & Whole notes",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

@@ -1,9 +1,9 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::15.9",
+  "id": "trane::music::earmaster::rhythm_sight_reading::15.9",
   "dependencies": [
-    "trane::music::earmaster::rhthym_sight_reading::15.8"
+    "trane::music::earmaster::rhythm_sight_reading::15.8"
   ],
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "4/4 - 4 bars: Quarter notes, 16th Triplets",
   "description": null,
   "metadata": null,

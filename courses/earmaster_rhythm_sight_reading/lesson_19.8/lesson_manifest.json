@@ -1,9 +1,9 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::19.8",
+  "id": "trane::music::earmaster::rhythm_sight_reading::19.8",
   "dependencies": [
-    "trane::music::earmaster::rhthym_sight_reading::19.7"
+    "trane::music::earmaster::rhythm_sight_reading::19.7"
   ],
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "9/8 - 4 bars: 8th & Quarter notes, Quarter dotted notes - including rests",
   "description": null,
   "metadata": null,

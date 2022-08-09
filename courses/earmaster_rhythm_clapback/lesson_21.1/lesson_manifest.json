@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::rhythm_clapback::21.1",
+  "dependencies": [
+    "trane::music::earmaster::rhythm_clapback::20.9"
+  ],
+  "course_id": "trane::music::earmaster::rhythm_clapback",
+  "name": "5/8 & 7/8 - 1 bar: 16th & 8th notes",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

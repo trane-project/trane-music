@@ -533,6 +533,207 @@ pub fn course_builder() -> CourseBuilder {
                 "3/4 - 4 bars: 16th, 8th, Quarter & Half Triplets - including rests",
                 vec!["15.14"],
             ),
+            // Unit 16 - Introducing a new time signature: 5/4
+            EarMasterLesson::new(
+                "16.1",
+                "5/4 - 4 bars: 8th & Quarter notes - including rests",
+                vec!["15.15"],
+            ),
+            EarMasterLesson::new(
+                "16.2",
+                "5/4 - 4 bars: 8th & Quarter notes - including rests",
+                vec!["16.1"],
+            ),
+            EarMasterLesson::new(
+                "16.3",
+                "5/4 - 4 bars: 8th, Quarter & Half notes - including rests",
+                vec!["16.2"],
+            ),
+            EarMasterLesson::new(
+                "16.4",
+                "5/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["16.3"],
+            ),
+            EarMasterLesson::new(
+                "16.5",
+                "5/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["16.4"],
+            ),
+            EarMasterLesson::new(
+                "16.6",
+                "5/4 - 4 bars: 16th, 8th, Quarter, Half & Whole notes - including rests",
+                vec!["16.5"],
+            ),
+            EarMasterLesson::new(
+                "16.7",
+                "5/4 - 4 bars: 16th, 8th, Quarter, Half & Whole notes, 16th, 8th & Quarter Triplets",
+                vec!["16.6"],
+            ),
+            EarMasterLesson::new(
+                "16.8",
+                "5/4 - 4 bars: 16th, 8th, Quarter, Half & Whole notes, 16th, 8th & Quarter Triplets - including rests",
+                vec!["16.7"],
+            ),
+            // Unit 17 - Introducing new time signatures: 3/8, 4/8 & 6/8
+            EarMasterLesson::new(
+                "17.1",
+                "3/8, 4/8 & 6/8 - 4 bars: 16th & 8th notes",
+                vec!["16.8"],
+            ),
+            EarMasterLesson::new(
+                "17.2",
+                "3/8, 4/8 & 6/8 - 4 bars: 16th & 8th notes - including rests",
+                vec!["17.1"],
+            ),
+            EarMasterLesson::new(
+                "17.3",
+                "3/8, 4/8 & 6/8 - 4 bars: 16th, 8th & Quarter notes",
+                vec!["17.2"],
+            ),
+            EarMasterLesson::new(
+                "17.4",
+                "3/8, 4/8 & 6/8 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["17.3"],
+            ),
+            // Unit 18 - 6/8 with dotted subdivision
+            EarMasterLesson::new(
+                "18.1",
+                "6/8 - 4 bars: 8th notes, Quarter dotted notes",
+                vec!["17.4"],
+            ),
+            EarMasterLesson::new(
+                "18.2",
+                "6/8 - 4 bars: 8th notes, Quarter dotted notes - including rests",
+                vec!["18.1"],
+            ),
+            EarMasterLesson::new(
+                "18.3",
+                "6/8 - 4 bars: 8th & Quarter notes, Quarter dotted notes",
+                vec!["18.2"],
+            ),
+            EarMasterLesson::new(
+                "18.4",
+                "6/8 - 4 bars: 8th & Quarter notes, Quarter dotted notes - including rests",
+                vec!["18.3"],
+            ),
+            EarMasterLesson::new(
+                "18.5",
+                "6/8 - 4 bars: 16th, 8th & Quarter notes, Quarter dotted notes - including rests",
+                vec!["18.4"],
+            ),
+            // Introduction to the 9/8 time signature
+            EarMasterLesson::new(
+                "19.1",
+                "9/8 - 4 bars: 16th & 8th notes",
+                vec!["18.5"],
+            ),
+            EarMasterLesson::new(
+                "19.2",
+                "9/8 - 4 bars: 16th & 8th notes - including rests",
+                vec!["19.1"],
+            ),
+            EarMasterLesson::new(
+                "19.3",
+                "9/8 - 4 bars: 16th, 8th & Quarter notes",
+                vec!["19.2"],
+            ),
+            EarMasterLesson::new(
+                "19.4",
+                "9/8 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["19.3"],
+            ),
+            EarMasterLesson::new(
+                "19.5",
+                "9/8 - 4 bars: 8th notes, Quarter dotted notes",
+                vec!["19.4"],
+            ),
+            EarMasterLesson::new(
+                "19.6",
+                "9/8 - 4 bars: 8th notes, Quarter dotted notes - including rests",
+                vec!["19.5"],
+            ),
+            EarMasterLesson::new(
+                "19.7",
+                "9/8 - 4 bars: 8th & Quarter notes, Quarter dotted notes",
+                vec!["19.6"],
+            ),
+            EarMasterLesson::new(
+                "19.8",
+                "9/8 - 4 bars: 8th & Quarter notes, Quarter dotted notes - including rests",
+                vec!["19.7"],
+            ),
+            EarMasterLesson::new(
+                "19.9",
+                "9/8 - 4 bars: 16th, 8th & Quarter notes, Quarter dotted notes - including rests",
+                vec!["19.8"],
+            ),
+            // Introduction to the 12/8 time signature
+            EarMasterLesson::new(
+                "20.1",
+                "12/8 - 4 bars: 16th & 8th notes",
+                vec!["19.9"],
+            ),
+            EarMasterLesson::new(
+                "20.2",
+                "12/8 - 4 bars: 16th & 8th notes - including rests",
+                vec!["201"],
+            ),
+            EarMasterLesson::new(
+                "20.3",
+                "12/8 - 4 bars: 16th, 8th & Quarter notes",
+                vec!["20.2"],
+            ),
+            EarMasterLesson::new(
+                "20.4",
+                "12/8 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["12.3"],
+            ),
+            EarMasterLesson::new(
+                "20.5",
+                "12/8 - 4 bars: 8th notes, Quarter dotted notes",
+                vec!["20.4"],
+            ),
+            EarMasterLesson::new(
+                "20.6",
+                "12/8 - 4 bars: 8th notes, Quarter dotted notes - including rests",
+                vec!["20.5"],
+            ),
+            EarMasterLesson::new(
+                "20.7",
+                "12/8 - 4 bars: 8th & Quarter notes, Quarter dotted notes",
+                vec!["20.6"],
+            ),
+            EarMasterLesson::new(
+                "20.8",
+                "12/8 - 4 bars: 8th & Quarter notes, Quarter dotted notes - including rests",
+                vec!["20.7"],
+            ),
+            EarMasterLesson::new(
+                "20.9",
+                "12/8 - 4 bars: 16th, 8th & Quarter notes, Quarter dotted notes - including rests",
+                vec!["20.8"],
+            ),
+            // Unit 21 - Introducing new time signatures: 5/8 & 7/8
+            EarMasterLesson::new(
+                "21.1",
+                "5/8 & 7/8 - 4 bars: 16th & 8th notes",
+                vec!["20.9"],
+            ),
+            EarMasterLesson::new(
+                "21.2",
+                "5/8 & 7/8 - 4 bars: 16th & 8th notes - including rests",
+                vec!["21.1"],
+            ),
+            EarMasterLesson::new(
+                "21.3",
+                "5/8 & 7/8 - 4 bars: 16th, 8th & Quarter notes",
+                vec!["21.2"],
+            ),
+            EarMasterLesson::new(
+                "21.4",
+                "5/8 & 7/8 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["21.3"],
+            ),
         ],
     };
     earmaster_course.course_builder()

@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::rhythm_dictation::21.3",
+  "dependencies": [
+    "trane::music::earmaster::rhythm_dictation::21.2"
+  ],
+  "course_id": "trane::music::earmaster::rhythm_dictation",
+  "name": "5/8 & 7/8 - 1 bar: 16th, 8th & Quarter notes",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

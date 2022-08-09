@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::rhythm_dictation::1.6",
+  "dependencies": [
+    "trane::music::earmaster::rhythm_dictation::1.5"
+  ],
+  "course_id": "trane::music::earmaster::rhythm_dictation",
+  "name": "4/4 - 1 bar: Half notes & Whole notes - including rests",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

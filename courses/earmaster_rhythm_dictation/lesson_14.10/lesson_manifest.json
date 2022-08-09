@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::rhythm_dictation::14.10",
+  "dependencies": [
+    "trane::music::earmaster::rhythm_dictation::14.9"
+  ],
+  "course_id": "trane::music::earmaster::rhythm_dictation",
+  "name": "4/4 - 1 bar: Half triplets - including rests",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

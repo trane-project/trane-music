@@ -4,6 +4,7 @@ pub mod chord_progressions;
 pub mod interval_identification;
 pub mod interval_singing;
 pub mod rhythm_clapback;
+pub mod rhythm_dictation;
 pub mod rhythm_sight_reading;
 pub mod scale_identification;
 

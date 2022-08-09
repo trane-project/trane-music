@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::rhythm_clapback::27.3::exercise",
+  "lesson_id": "trane::music::earmaster::rhythm_clapback::27.3",
+  "course_id": "trane::music::earmaster::rhythm_clapback",
+  "name": "Compound meters",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

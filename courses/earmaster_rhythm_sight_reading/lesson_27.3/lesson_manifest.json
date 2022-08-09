@@ -1,9 +1,9 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::27.3",
+  "id": "trane::music::earmaster::rhythm_sight_reading::27.3",
   "dependencies": [
-    "trane::music::earmaster::rhthym_sight_reading::27.2"
+    "trane::music::earmaster::rhythm_sight_reading::27.2"
   ],
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "Compound meters",
   "description": null,
   "metadata": null,

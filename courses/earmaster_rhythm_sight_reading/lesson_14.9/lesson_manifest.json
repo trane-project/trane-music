@@ -1,9 +1,9 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::14.9",
+  "id": "trane::music::earmaster::rhythm_sight_reading::14.9",
   "dependencies": [
-    "trane::music::earmaster::rhthym_sight_reading::14.8"
+    "trane::music::earmaster::rhythm_sight_reading::14.8"
   ],
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "4/4 - 4 bars: Half triplets",
   "description": null,
   "metadata": null,

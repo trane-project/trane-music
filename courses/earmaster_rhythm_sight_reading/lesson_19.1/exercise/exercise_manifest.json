@@ -1,7 +1,7 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::19.1::exercise",
-  "lesson_id": "trane::music::earmaster::rhthym_sight_reading::19.1",
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "id": "trane::music::earmaster::rhythm_sight_reading::19.1::exercise",
+  "lesson_id": "trane::music::earmaster::rhythm_sight_reading::19.1",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "9/8 - 4 bars: 16th & 8th notes",
   "description": null,
   "exercise_type": "Procedural",

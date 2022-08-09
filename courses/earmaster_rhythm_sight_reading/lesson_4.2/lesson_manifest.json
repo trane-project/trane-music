@@ -1,9 +1,9 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::4.2",
+  "id": "trane::music::earmaster::rhythm_sight_reading::4.2",
   "dependencies": [
-    "trane::music::earmaster::rhthym_sight_reading::4.1"
+    "trane::music::earmaster::rhythm_sight_reading::4.1"
   ],
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "4/4 - 8 bars: 8th & Quarter notes",
   "description": null,
   "metadata": null,

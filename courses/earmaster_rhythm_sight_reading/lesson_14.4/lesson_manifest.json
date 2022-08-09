@@ -1,9 +1,9 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::14.4",
+  "id": "trane::music::earmaster::rhythm_sight_reading::14.4",
   "dependencies": [
-    "trane::music::earmaster::rhthym_sight_reading::14.3"
+    "trane::music::earmaster::rhythm_sight_reading::14.3"
   ],
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "4/4 - 4 bars: Quarter notes, 8th Triplets - including rests",
   "description": null,
   "metadata": null,

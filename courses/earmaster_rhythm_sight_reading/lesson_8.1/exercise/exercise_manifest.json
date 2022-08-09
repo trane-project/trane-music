@@ -1,7 +1,7 @@
 {
-  "id": "trane::music::earmaster::rhthym_sight_reading::8.1::exercise",
-  "lesson_id": "trane::music::earmaster::rhthym_sight_reading::8.1",
-  "course_id": "trane::music::earmaster::rhthym_sight_reading",
+  "id": "trane::music::earmaster::rhythm_sight_reading::8.1::exercise",
+  "lesson_id": "trane::music::earmaster::rhythm_sight_reading::8.1",
+  "course_id": "trane::music::earmaster::rhythm_sight_reading",
   "name": "3/4 - 4 bars: 16th & Quarter notes - including rests",
   "description": null,
   "exercise_type": "Procedural",

@@ -1,0 +1,20 @@
+{
+  "id": "trane::music::earmaster::rhythm_clapback",
+  "name": "Rhythm Clapback",
+  "dependencies": [],
+  "description": "Practice EarMaster activity Rhythm Clapback",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "earmaster": [
+      "true"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": {
+    "MarkdownAsset": {
+      "path": "instructions.md"
+    }
+  }
+}

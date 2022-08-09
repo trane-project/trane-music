@@ -17,7 +17,7 @@ pub fn course_builder() -> CourseBuilder {
         directory_name: "earmaster_rhythm_clapback".to_string(),
         metadata: Some(BTreeMap::from([])),
         lessons: vec![
-            // Unit 1 - 4/4 - 4 bars: Whole, Half, Quarter & Eighth notes
+            // Unit 1 - 4/4 - 1 bar: Whole, Half, Quarter & Eighth notes
             EarMasterLesson::new(
                 "1.1",
                 "4/4 - 1 bar: Quarter notes - including rests",
@@ -54,7 +54,7 @@ pub fn course_builder() -> CourseBuilder {
                 "4/4 - 1 bar: 8th, Quarter, Half & Whole notes - including rests",
                 vec!["1.7"],
             ),
-            // Unit 2 - 3/4 - 4 bars: Half, Quarter & Eighth notes
+            // Unit 2 - 3/4 - 1 bar: Half, Quarter & Eighth notes
             EarMasterLesson::new(
                 "2.1",
                 "3/4 - 1 bar: Quarter notes - including rests",
@@ -81,7 +81,7 @@ pub fn course_builder() -> CourseBuilder {
                 "3/4 - 1 bar: 8th, Quarter & Half notes - including rests",
                 vec!["2.5"],
             ),
-            // Unit 3 - 2/4 - 4 bars: Half, Quarter & Eighth notes
+            // Unit 3 - 2/4 - 1 bar: Half, Quarter & Eighth notes
             EarMasterLesson::new(
                 "3.1",
                 "2/4 - 1 bar: Quarter notes - including rests",
@@ -108,7 +108,7 @@ pub fn course_builder() -> CourseBuilder {
                 "2/4 - 1 bar: 8th, Quarter & Half notes - including rests",
                 vec!["3.5"],
             ),
-            // Unit 4 - 4/4 - 8 bars: Whole, Half, Quarter & Eighth notes
+            // Unit 4 - 4/4 - 2 bars: Whole, Half, Quarter & Eighth notes
             EarMasterLesson::new(
                 "4.1",
                 "4/4 - 2 bars: Quarter notes - including rests",
@@ -145,7 +145,7 @@ pub fn course_builder() -> CourseBuilder {
                 "4/4 - 2 bars: 8th, Quarter, Half & Whole notes - including rests",
                 vec!["4.7"],
             ),
-            // Unit 5 - 3/4 - 8 bars: Half, Quarter & Eighth notes
+            // Unit 5 - 3/4 - 2 bars: Half, Quarter & Eighth notes
             EarMasterLesson::new(
                 "5.1",
                 "3/4 - 2 bars: Quarter notes - including rests",
@@ -172,7 +172,7 @@ pub fn course_builder() -> CourseBuilder {
                 "3/4 - 2 bars: 8th, Quarter & Half notes - including rests",
                 vec!["5.5"],
             ),
-            // Unit 6 - 2/4 - 8 bars: Half, Quarter & Eighth notes
+            // Unit 6 - 2/4 - 2 bars: Half, Quarter & Eighth notes
             EarMasterLesson::new(
                 "6.1",
                 "2/4 - 2 bars: Quarter notes - including rests",

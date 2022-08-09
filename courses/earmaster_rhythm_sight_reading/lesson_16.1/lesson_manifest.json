@@ -1,6 +1,7 @@
 {
   "id": "trane::music::earmaster::rhthym_sight_reading::16.1",
   "dependencies": [
+    "trane::music::earmaster::rhthym_sight_reading::14.17",
     "trane::music::earmaster::rhthym_sight_reading::15.15"
   ],
   "course_id": "trane::music::earmaster::rhthym_sight_reading",

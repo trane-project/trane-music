@@ -537,7 +537,7 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new(
                 "16.1",
                 "5/4 - 4 bars: 8th & Quarter notes - including rests",
-                vec!["15.15"],
+                vec!["14.17", "15.15"],
             ),
             EarMasterLesson::new(
                 "16.2",
@@ -676,7 +676,7 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new(
                 "20.2",
                 "12/8 - 4 bars: 16th & 8th notes - including rests",
-                vec!["201"],
+                vec!["20.1"],
             ),
             EarMasterLesson::new(
                 "20.3",
@@ -686,7 +686,7 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new(
                 "20.4",
                 "12/8 - 4 bars: 16th, 8th & Quarter notes - including rests",
-                vec!["12.3"],
+                vec!["20.3"],
             ),
             EarMasterLesson::new(
                 "20.5",

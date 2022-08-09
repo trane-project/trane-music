@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::rhythm_dictation::23.5::exercise",
+  "lesson_id": "trane::music::earmaster::rhythm_dictation::23.5",
+  "course_id": "trane::music::earmaster::rhythm_dictation",
+  "name": "4/4 - 1 bar: 8th & Quarter notes, 8th & Quarter triplets",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

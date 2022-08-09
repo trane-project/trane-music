@@ -230,7 +230,8 @@ pub fn course_builder() -> CourseBuilder {
                 "8.3",
                 "3/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
                 vec!["8.2"],
-            ), // Unit 9 - 2/4: Introducing Sixteenth Note Groupings
+            ),
+            // Unit 9 - 2/4: Introducing Sixteenth Note Groupings
             EarMasterLesson::new(
                 "9.1",
                 "2/4 - 4 bars: 16th & Quarter notes - including rests",
@@ -245,6 +246,292 @@ pub fn course_builder() -> CourseBuilder {
                 "9.3",
                 "2/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
                 vec!["9.2"],
+            ),
+            // Unit 10 - Advanced Sixteenth Note Groupings
+            EarMasterLesson::new(
+                "10.1",
+                "4/4 - 4 bars: 16th, 8th & Quarter notes",
+                vec!["9.3"],
+            ),
+            EarMasterLesson::new(
+                "10.2",
+                "3/4 - 4 bars: 16th, 8th & Quarter notes",
+                vec!["9.3"],
+            ),
+            EarMasterLesson::new(
+                "10.3",
+                "2/4 - 4 bars: 16th, 8th & Quarter notes",
+                vec!["9.3"],
+            ),
+            EarMasterLesson::new(
+                "10.4",
+                "2/4, 3/4 & 4/4 - 4 bars: 16th, 8th & Quarter notes",
+                vec!["10.1", "10.2", "10.3"],
+            ),
+            EarMasterLesson::new(
+                "10.5",
+                "4/4 - 4 bars: 16th, 8th & Quarter notes",
+                vec!["10.4"],
+            ),
+            EarMasterLesson::new(
+                "10.6",
+                "3/4 - 4 bars: 16th, 8th & Quarter notes",
+                vec!["10.4"],
+            ),
+            EarMasterLesson::new(
+                "10.7",
+                "2/4 - 4 bars: 16th, 8th & Quarter notes",
+                vec!["10.4"],
+            ),
+            EarMasterLesson::new(
+                "10.8",
+                "2/4, 3/4 & 4/4 - 4 bars: 16th, 8th & Quarter notes",
+                vec!["10.5", "10.6", "10.7"],
+            ),
+            // Unit 11 - Advanced Sixteenth Note Groupings with Rests
+            EarMasterLesson::new(
+                "11.1",
+                "4/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["10.8"],
+            ),
+            EarMasterLesson::new(
+                "11.2",
+                "3/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["10.8"],
+            ),
+            EarMasterLesson::new(
+                "11.3",
+                "2/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["10.8"],
+            ),
+            EarMasterLesson::new(
+                "11.4",
+                "2/4, 3/4 & 4/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["11.1", "11.2", "11.3"],
+            ),
+            EarMasterLesson::new(
+                "11.5",
+                "4/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["11.4"],
+            ),
+            EarMasterLesson::new(
+                "11.6",
+                "3/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["11.4"],
+            ),
+            EarMasterLesson::new(
+                "11.7",
+                "2/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["11.4"],
+            ),
+            EarMasterLesson::new(
+                "11.8",
+                "2/4, 3/4 & 4/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["11.5", "11.6", "11.7"],
+            ),
+            // Unit 12 - Advanced 16th and 8th Combinations with Rests
+            EarMasterLesson::new(
+                "12.1",
+                "4/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["11.8"],
+            ),
+            EarMasterLesson::new(
+                "12.2",
+                "3/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["11.8"],
+            ),
+            EarMasterLesson::new(
+                "12.3",
+                "2/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["11.8"],
+            ),
+            EarMasterLesson::new(
+                "12.4",
+                "2/4, 3/4 & 4/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["12.1", "12.2", "12.3"],
+            ),
+            EarMasterLesson::new(
+                "12.5",
+                "4/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["12.4"],
+            ),
+            EarMasterLesson::new(
+                "12.6",
+                "3/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["12.4"],
+            ),
+            EarMasterLesson::new(
+                "12.7",
+                "2/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["12.4"],
+            ),
+            EarMasterLesson::new(
+                "12.8",
+                "2/4, 3/4 & 4/4 - 4 bars: 16th, 8th & Quarter notes - including rests",
+                vec!["12.5", "12.6", "12.7"],
+            ),
+            // Unit 13 - All note values from the previous lessons, including rests
+            EarMasterLesson::new(
+                "13.1",
+                "4/4 - 4 bars: 16th, 8th, Quarter, Half & Whole notes - including rests",
+                vec!["12.8"],
+            ),
+            EarMasterLesson::new(
+                "13.2",
+                "3/4 - 4 bars: 16th, 8th, Quarter & Half notes - including rests",
+                vec!["12.8"],
+            ),
+            EarMasterLesson::new(
+                "13.3",
+                "2/4 - 4 bars: 16th, 8th, Quarter & Half notes - including rests",
+                vec!["12.8"],
+            ),
+            EarMasterLesson::new(
+                "13.4",
+                "2/4, 3/4 & 4/4 - 4 bars: 16th, 8th, Quarter & Half notes - including rests",
+                vec!["13.1", "13.2", "13.3"],
+            ),
+            // Unit 14 - 4/4: Triplets
+            EarMasterLesson::new(
+                "14.1",
+                "4/4 - 4 bars: Quarter notes, 8th Triplets",
+                vec!["13.4"],
+            ),
+            EarMasterLesson::new(
+                "14.2",
+                "4/4 - 4 bars: Quarter notes, 8th Triplets - including rests",
+                vec!["14.1"],
+            ),
+            EarMasterLesson::new(
+                "14.3",
+                "4/4 - 4 bars: Quarter & Half notes, 8th Triplets - including rests",
+                vec!["14.2"],
+            ),
+            EarMasterLesson::new(
+                "14.4",
+                "4/4 - 4 bars: Quarter notes, 8th Triplets - including rests",
+                vec!["14.3"],
+            ),
+            EarMasterLesson::new("14.5", "4/4 - 4 bars: 8th & Quarter Triplets", vec!["14.4"]),
+            EarMasterLesson::new(
+                "14.6",
+                "4/4 - 4 bars: 8th & Quarter Triplets - including rests",
+                vec!["14.5"],
+            ),
+            EarMasterLesson::new(
+                "14.7",
+                "4/4 - 4 bars: Quarter notes, 8th & Quarter Triplets",
+                vec!["14.6"],
+            ),
+            EarMasterLesson::new(
+                "14.8",
+                "4/4 - 4 bars: Quarter notes, 8th & Quarter Triplets - including rests",
+                vec!["14.7"],
+            ),
+            EarMasterLesson::new("14.9", "4/4 - 4 bars: Half triplets", vec!["14.8"]),
+            EarMasterLesson::new(
+                "14.10",
+                "4/4 - 4 bars: Half triplets - including rests",
+                vec!["14.9"],
+            ),
+            EarMasterLesson::new(
+                "14.11",
+                "4/4 - 4 bars: Quarter notes, 16th Triplets",
+                vec!["14.10"],
+            ),
+            EarMasterLesson::new(
+                "14.12",
+                "4/4 - 4 bars: Quarter notes, 16th Triplets - including rests",
+                vec!["14.11"],
+            ),
+            EarMasterLesson::new(
+                "14.13",
+                "4/4 - 4 bars: 16th Triplets - including rests",
+                vec!["14.12"],
+            ),
+            EarMasterLesson::new("14.14", "4/4 - 4 bars: 16th & 8th Triplets", vec!["14.13"]),
+            EarMasterLesson::new(
+                "14.15",
+                "4/4 - 4 bars: 16th & 8th Triplets - including rests",
+                vec!["14.14"],
+            ),
+            EarMasterLesson::new(
+                "14.16",
+                "4/4 - 4 bars: 16th, 8th, Quarter & Half Triplets",
+                vec!["14.15"],
+            ),
+            EarMasterLesson::new(
+                "14.17",
+                "4/4 - 4 bars: 16th, 8th, Quarter & Half Triplets - including rests",
+                vec!["14.16"],
+            ),
+            // Unit 15 - Triplets, now in 3/4
+            EarMasterLesson::new(
+                "15.1",
+                "3/4 - 4 bars: Quarter notes, 8th Triplets",
+                vec!["14.17"],
+            ),
+            EarMasterLesson::new(
+                "15.2",
+                "3/4 - 4 bars: Quarter notes, 8th Triplets - including rests",
+                vec!["15.1"],
+            ),
+            EarMasterLesson::new(
+                "15.3",
+                "3/4 - 4 bars: Quarter & Half notes, 8th Triplets - including rests",
+                vec!["15.2"],
+            ),
+            EarMasterLesson::new(
+                "15.4",
+                "3/4 - 4 bars: Quarter notes, 8th Triplets - including rests",
+                vec!["15.3"],
+            ),
+            EarMasterLesson::new("15.5", "3/4 - 4 bars: 8th & Quarter Triplets", vec!["15.4"]),
+            EarMasterLesson::new(
+                "15.6",
+                "3/4 - 4 bars: 8th & Quarter Triplets - including rests",
+                vec!["15.5"],
+            ),
+            EarMasterLesson::new(
+                "15.7",
+                "3/4 - 4 bars: Quarter notes, 8th & Quarter Triplets",
+                vec!["15.6"],
+            ),
+            EarMasterLesson::new(
+                "15.8",
+                "3/4 - 4 bars: Quarter notes, 8th & Quarter Triplets - including rests",
+                vec!["15.7"],
+            ),
+            EarMasterLesson::new(
+                "15.9",
+                "4/4 - 4 bars: Quarter notes, 16th Triplets",
+                vec!["15.8"],
+            ),
+            EarMasterLesson::new(
+                "15.10",
+                "3/4 - 4 bars: Quarter notes, 16th Triplets - including rests",
+                vec!["15.9"],
+            ),
+            EarMasterLesson::new(
+                "15.11",
+                "3/4 - 4 bars: 16th Triplets - including rests",
+                vec!["15.10"],
+            ),
+            EarMasterLesson::new("15.12", "3/4 - 4 bars: 16th & 8th Triplets", vec!["15.11"]),
+            EarMasterLesson::new(
+                "15.13",
+                "3/4 - 4 bars: 16th & 8th Triplets - including rests",
+                vec!["15.12"],
+            ),
+            EarMasterLesson::new(
+                "15.14",
+                "3/4 - 4 bars: 16th, 8th, Quarter & Half Triplets",
+                vec!["15.13"],
+            ),
+            EarMasterLesson::new(
+                "15.15",
+                "3/4 - 4 bars: 16th, 8th, Quarter & Half Triplets - including rests",
+                vec!["15.14"],
             ),
         ],
     };

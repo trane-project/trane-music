@@ -1,7 +1,7 @@
 {
   "id": "trane::music::earmaster::rhythm_clapback::10.1",
   "dependencies": [
-    "trane::music::earmaster::rhythm_clapback::9.3"
+    "trane::music::earmaster::rhythm_clapback::7.3"
   ],
   "course_id": "trane::music::earmaster::rhythm_clapback",
   "name": "4/4 - 1 bar: 16th, 8th & Quarter notes",

@@ -251,12 +251,12 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new(
                 "10.1",
                 "4/4 - 4 bars: 16th, 8th & Quarter notes",
-                vec!["9.3"],
+                vec!["7.3"],
             ),
             EarMasterLesson::new(
                 "10.2",
                 "3/4 - 4 bars: 16th, 8th & Quarter notes",
-                vec!["9.3"],
+                vec!["8.3"],
             ),
             EarMasterLesson::new(
                 "10.3",

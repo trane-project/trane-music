@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::rhythm_error_detection::6.1",
+  "dependencies": [
+    "trane::music::earmaster::rhythm_error_detection::3.6"
+  ],
+  "course_id": "trane::music::earmaster::rhythm_error_detection",
+  "name": "2/4 - 4 bars: Quarter notes - including rests",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

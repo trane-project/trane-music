@@ -1,0 +1,20 @@
+{
+  "id": "trane::music::earmaster::rhythm_error_detection",
+  "name": "Rhythm Error Detection",
+  "dependencies": [],
+  "description": "Practice EarMaster activity Rhythm Error Detection",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "earmaster": [
+      "true"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": {
+    "MarkdownAsset": {
+      "path": "instructions.md"
+    }
+  }
+}

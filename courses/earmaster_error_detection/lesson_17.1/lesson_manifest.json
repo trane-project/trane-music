@@ -1,0 +1,13 @@
+{
+  "id": "trane::music::earmaster::rhythm_error_detection::17.1",
+  "dependencies": [
+    "trane::music::earmaster::rhythm_error_detection::15.17",
+    "trane::music::earmaster::rhythm_error_detection::16.15"
+  ],
+  "course_id": "trane::music::earmaster::rhythm_error_detection",
+  "name": "5/4 - 2 bars: 8th & Quarter notes - including rests",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

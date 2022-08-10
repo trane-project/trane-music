@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::rhythm_error_detection::4.6::exercise",
+  "lesson_id": "trane::music::earmaster::rhythm_error_detection::4.6",
+  "course_id": "trane::music::earmaster::rhythm_error_detection",
+  "name": "4/4 - 4 bars: Half notes & Whole notes - including rests",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

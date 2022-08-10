@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::rhythm_error_detection::23.2::exercise",
+  "lesson_id": "trane::music::earmaster::rhythm_error_detection::23.2",
+  "course_id": "trane::music::earmaster::rhythm_error_detection",
+  "name": "2/2, 3/2 & 4/2 - 2 bars: Half & Whole notes - including rests",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

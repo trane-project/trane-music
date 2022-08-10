@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::rhythm_error_detection::16.4::exercise",
+  "lesson_id": "trane::music::earmaster::rhythm_error_detection::16.4",
+  "course_id": "trane::music::earmaster::rhythm_error_detection",
+  "name": "3/4 - 2 bars: Quarter notes, 8th Triplets - including rests",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

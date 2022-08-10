@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::rhythm_error_detection::21.5",
+  "dependencies": [
+    "trane::music::earmaster::rhythm_error_detection::21.4"
+  ],
+  "course_id": "trane::music::earmaster::rhythm_error_detection",
+  "name": "12/8 - 2 bars: 8th notes, Quarter dotted notes",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

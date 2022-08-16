@@ -288,7 +288,7 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new("18.4", "Harmonic  minor (all keys). 1 bar", vec!["18.3"]),
             EarMasterLesson::new("18.5", "Harmonic  minor (all keys). 2 bars", vec!["18.4"]),
             EarMasterLesson::new("18.6", "Harmonic  minor (all keys). 4 bars", vec!["18.5"]),
-        ]
+        ],
     };
     earmaster_course.course_builder()
 }

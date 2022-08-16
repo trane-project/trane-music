@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::melody_sight_singing::17.9::exercise",
+  "lesson_id": "trane::music::earmaster::melody_sight_singing::17.9",
+  "course_id": "trane::music::earmaster::melody_sight_singing",
+  "name": "Do, Re, Me, Fa, So, Le",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

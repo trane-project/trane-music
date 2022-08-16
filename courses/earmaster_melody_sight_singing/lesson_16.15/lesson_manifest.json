@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::melody_sight_singing::16.15",
+  "dependencies": [
+    "trane::music::earmaster::melody_sight_singing::16.14"
+  ],
+  "course_id": "trane::music::earmaster::melody_sight_singing",
+  "name": "Do, Re, Me, Fa, So, Le",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::melody_sight_singing::10.12",
+  "dependencies": [
+    "trane::music::earmaster::melody_sight_singing::10.7"
+  ],
+  "course_id": "trane::music::earmaster::melody_sight_singing",
+  "name": "Do, Re, Mi - 4 bars",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

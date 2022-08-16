@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::melody_sight_singing::16.12::exercise",
+  "lesson_id": "trane::music::earmaster::melody_sight_singing::16.12",
+  "course_id": "trane::music::earmaster::melody_sight_singing",
+  "name": "Do, Re, Me - 4 bars",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

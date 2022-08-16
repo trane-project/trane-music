@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::melody_sight_singing::18.4::exercise",
+  "lesson_id": "trane::music::earmaster::melody_sight_singing::18.4",
+  "course_id": "trane::music::earmaster::melody_sight_singing",
+  "name": "Harmonic  minor (all keys). 1 bar",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

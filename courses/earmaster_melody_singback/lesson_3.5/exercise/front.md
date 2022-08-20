@@ -1,4 +1,4 @@
 Work on the following exercise in EarMaster:
 - Activity: Melody Singback
-- Exercise Name: Do, Re, Mi, Fa, So, La
+- Exercise Name: Do, Re, Mi, Fa, So, La, Ti
 - Exercise Number: 3.5

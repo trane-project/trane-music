@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::melody_dictation::18.4",
+  "dependencies": [
+    "trane::music::earmaster::melody_dictation::18.3"
+  ],
+  "course_id": "trane::music::earmaster::melody_dictation",
+  "name": "Harmonic minor (all keys). 1 bar",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

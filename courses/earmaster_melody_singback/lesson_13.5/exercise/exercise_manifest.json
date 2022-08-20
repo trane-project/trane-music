@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::melody_singback::13.5::exercise",
+  "lesson_id": "trane::music::earmaster::melody_singback::13.5",
+  "course_id": "trane::music::earmaster::melody_singback",
+  "name": "Do, Re, Me, Fa, So, La",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

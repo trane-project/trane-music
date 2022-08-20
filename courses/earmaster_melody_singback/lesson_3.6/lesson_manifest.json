@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::melody_singback::3.6",
+  "dependencies": [
+    "trane::music::earmaster::melody_singback::3.1"
+  ],
+  "course_id": "trane::music::earmaster::melody_singback",
+  "name": "Do, Re, Mi - 8 tones",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

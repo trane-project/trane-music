@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::melody_singback::3.2",
+  "dependencies": [
+    "trane::music::earmaster::melody_singback::3.1"
+  ],
+  "course_id": "trane::music::earmaster::melody_singback",
+  "name": "Do, Re, Mi, Fa",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

@@ -3,6 +3,7 @@ pub mod chord_identification;
 pub mod chord_progressions;
 pub mod interval_identification;
 pub mod interval_singing;
+pub mod melody_dictation;
 pub mod melody_sight_singing;
 pub mod melody_singback;
 pub mod rhythm_clapback;

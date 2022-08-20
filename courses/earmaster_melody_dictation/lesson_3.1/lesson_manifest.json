@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::melody_dictation::3.1",
+  "dependencies": [
+    "trane::music::earmaster::melody_dictation::2.7"
+  ],
+  "course_id": "trane::music::earmaster::melody_dictation",
+  "name": "Do, Re, Mi - 7 tones",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

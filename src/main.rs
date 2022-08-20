@@ -16,6 +16,7 @@ fn build_courses(library_root: &Path) -> Result<()> {
         earmaster::interval_identification::course_builder(),
         earmaster::interval_singing::course_builder(),
         earmaster::melody_sight_singing::course_builder(),
+        earmaster::melody_singback::course_builder(),
         earmaster::rhythm_clapback::course_builder(),
         earmaster::rhythm_dictation::course_builder(),
         earmaster::rhythm_error_detection::course_builder(),

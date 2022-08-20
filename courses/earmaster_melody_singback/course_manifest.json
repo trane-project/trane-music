@@ -1,0 +1,20 @@
+{
+  "id": "trane::music::earmaster::melody_singback",
+  "name": "Melody Singback",
+  "dependencies": [],
+  "description": "Practice EarMaster activity Melody Singback",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "earmaster": [
+      "true"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": {
+    "MarkdownAsset": {
+      "path": "instructions.md"
+    }
+  }
+}

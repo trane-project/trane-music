@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::melody_singback::17.5",
+  "dependencies": [
+    "trane::music::earmaster::melody_singback::17.4"
+  ],
+  "course_id": "trane::music::earmaster::melody_singback",
+  "name": "Harmonic minor (all keys). 2 bars",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

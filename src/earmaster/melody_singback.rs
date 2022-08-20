@@ -55,7 +55,7 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new("3.9", "Do, Re, Mi, Fa, So, La", vec!["3.8"]),
             EarMasterLesson::new("3.10", "Do, Re, Mi, Fa, So, La, Ti", vec!["3.9"]),
             // Unit 4 - Melodies in C major with rhythm. 4/4
-            EarMasterLesson::new("4.1", "Do, Re - 1 bar", vec!["3.12"]),
+            EarMasterLesson::new("4.1", "Do, Re - 1 bar", vec!["3.10"]),
             EarMasterLesson::new("4.2", "Do, Re, Mi", vec!["4.1"]),
             EarMasterLesson::new("4.3", "Do, Re, Mi, Fa", vec!["4.2"]),
             EarMasterLesson::new("4.4", "Do, Re, Mi, Fa, So", vec!["4.3"]),
@@ -67,7 +67,7 @@ pub fn course_builder() -> CourseBuilder {
             EarMasterLesson::new("4.10", "Do, Re, Mi, Fa, So, La", vec!["4.9"]),
             EarMasterLesson::new("4.11", "Do, Re, Mi, Fa, So, La, Ti", vec!["4.10"]),
             // Unit 5 - Melodies in C major with rhythm. 3/4
-            EarMasterLesson::new("5.1", "Do, Re - 1 bar", vec!["3.12"]),
+            EarMasterLesson::new("5.1", "Do, Re - 1 bar", vec!["3.10"]),
             EarMasterLesson::new("5.2", "Do, Re, Mi", vec!["5.1"]),
             EarMasterLesson::new("5.3", "Do, Re, Mi, Fa", vec!["5.2"]),
             EarMasterLesson::new("5.4", "Do, Re, Mi, Fa, So", vec!["5.3"]),

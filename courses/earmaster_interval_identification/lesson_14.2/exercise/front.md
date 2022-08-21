@@ -1,4 +1,0 @@
-Work on the following exercise in EarMaster:
-- Activity: Interval Identification
-- Exercise Name: Minor 3rd & Major 6th - Ascending, Descending & Harmonic
-- Exercise Number: 14.2

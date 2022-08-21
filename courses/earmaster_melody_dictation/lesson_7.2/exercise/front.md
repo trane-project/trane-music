@@ -1,4 +1,0 @@
-Work on the following exercise in EarMaster:
-- Activity: Melody Dictation
-- Exercise Name: Do, Re, Mi
-- Exercise Number: 7.2

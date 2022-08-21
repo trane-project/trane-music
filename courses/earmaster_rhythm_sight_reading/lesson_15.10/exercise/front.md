@@ -1,4 +1,0 @@
-Work on the following exercise in EarMaster:
-- Activity: Rhythm Sight-Reading
-- Exercise Name: 3/4 - 4 bars: Quarter notes, 16th Triplets - including rests
-- Exercise Number: 15.10

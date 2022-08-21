@@ -343,8 +343,8 @@ pub fn course_builder() -> CourseBuilder {
             ),
             EarMasterLesson::new(
                 "15.18",
-                "Minor 2nd, Major 2nd, Dim 5th, Minor 7th & Major 7th - \
-                Ascending, Descending & Harmonic",
+                "Minor 2nd, Major 2nd, Dim 5th, Minor 7th & Major 7th - Ascending, Descending & \
+                 Harmonic",
                 vec!["15.15", "15.16", "15.17"],
             ),
             // Unit 16.

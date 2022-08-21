@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::chord_inversions::17.1::exercise",
+  "lesson_id": "trane::music::earmaster::chord_inversions::17.1",
+  "course_id": "trane::music::earmaster::chord_inversions",
+  "name": "Mi7, mi7(b5), dim7, dim,maj7 & mi,maj7 - Ascending",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

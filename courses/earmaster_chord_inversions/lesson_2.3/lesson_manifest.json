@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::chord_inversions::2.3",
+  "dependencies": [
+    "trane::music::earmaster::chord_inversions::2.2"
+  ],
+  "course_id": "trane::music::earmaster::chord_inversions",
+  "name": "Inversions of the minor chord - Harmonic",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

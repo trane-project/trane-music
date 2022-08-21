@@ -1,0 +1,20 @@
+{
+  "id": "trane::music::earmaster::chord_inversions",
+  "name": "Chord Inversions",
+  "dependencies": [],
+  "description": "Practice EarMaster activity Chord Inversions",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "earmaster": [
+      "true"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": {
+    "MarkdownAsset": {
+      "path": "instructions.md"
+    }
+  }
+}

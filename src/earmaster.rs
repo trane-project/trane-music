@@ -1,5 +1,6 @@
 //! Module containing EarMaster courses.
 pub mod chord_identification;
+pub mod chord_inversions;
 pub mod chord_progressions;
 pub mod interval_identification;
 pub mod interval_singing;

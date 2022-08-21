@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::chord_inversions::7.1",
+  "dependencies": [
+    "trane::music::earmaster::chord_inversions::6.4"
+  ],
+  "course_id": "trane::music::earmaster::chord_inversions",
+  "name": "Inversions of the minor & dim chords - Ascending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

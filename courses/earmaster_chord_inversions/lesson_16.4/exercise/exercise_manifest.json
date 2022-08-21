@@ -1,0 +1,14 @@
+{
+  "id": "trane::music::earmaster::chord_inversions::16.4::exercise",
+  "lesson_id": "trane::music::earmaster::chord_inversions::16.4",
+  "course_id": "trane::music::earmaster::chord_inversions",
+  "name": "Maj7, maj7(b5) & maj7(#5) - Harmonic, ascending and descending",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

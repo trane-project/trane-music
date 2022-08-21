@@ -1,0 +1,12 @@
+{
+  "id": "trane::music::earmaster::chord_inversions::8.1",
+  "dependencies": [
+    "trane::music::earmaster::chord_inversions::7.4"
+  ],
+  "course_id": "trane::music::earmaster::chord_inversions",
+  "name": "Inversions of the Dim, aug & major(b5) chords - Ascending",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

@@ -1,8 +1,11 @@
 # trane-music
 
-This repository contains courses in music designed to be used with
+This repository contains courses in general musicianship designed to be used with
 [Trane](https://github.com/trane-project/trane). It is in active development and new material is
 being added.
+
+Courses for specific instruments are not included in this repository so that it is easier to pick
+and choose which courses you want to use.
 
 ## Building
 
@@ -15,14 +18,8 @@ requires that a stable version of the Rust toolchain is installed.
 
 ## Usage
 
-Install [trane-cli](https://github.com/trane-project/trane-cli) in your computer. Then, you can
-download this repository, start the `trane` command, and open a new Trane library with the `open
-<DIRECTORY>` command inside the CLI.
-
-You can also copy only the directories for the courses you want to practice to another directory.
-It's also perfectly OK to mix and match courses from multiple sources. They should work seamlessly
-with each other as long as there are no issues with the dependencies (e.g. cycles) or repeated IDs.
-All official courses have IDs with the prefix `trane::` to help avoid those issues.
+For instructions on how to use Trane, please refer to the [quick start
+guide](https://trane-project.github.io/quick_start.html).
 
 ## Contributing
 

@@ -3,9 +3,8 @@
 `trane-music` is in active development and new courses are in the process of being added. All the
 courses in this repository are code-generated using the code inside the `src/` directory. While all
 the files needed to share courses are plain text (either markdown or JSON files), generating them by
-hand quickly becomes a painful process. Trane is also in active development, which makes code
-generating the materials a better choice for keeping the material up to date with the latest
-changes.
+hand quickly becomes a painful process. Trane is also in active development, which makes generating
+the materials by code a better choice for keeping the material up to date with the latest changes.
 
 However, there are multiple valuable ways you can contribute to this project, even if you've never
 touched a line of code or opened a JSON file in your life.
@@ -15,11 +14,11 @@ touched a line of code or opened a JSON file in your life.
 Easiest way to contribute is by simply opening an issue and suggesting new courses or lessons to be
 added. It is especially useful to detail how the material in those units relates to other material
 (either in existing courses or ones that have not been added yet) and how you would break the
-material into smaller lessons, if it is necessary. Either links to reference material or example
+material into smaller lessons, if necessary. Either links to reference material or example
 exercises are also useful.
 
 If you are an experienced musician but can't (or want) to code any material yourself, this is a
-great way to contribute as a large part of the task at hand is breaking down skills and knowledge
+great way to contribute. A large part of the task at hand is breaking down skills and knowledge
 into smaller units and figuring a sensible order in which they should be introduced to students.
 
 ## Planning new material

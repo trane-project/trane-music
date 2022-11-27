@@ -1,2 +1,1 @@
-What interval from the tonic is degree number 2 of the
-minor scale?
+What interval from the tonic is degree number 2 of the Minor scale?

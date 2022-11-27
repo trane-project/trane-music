@@ -1,1 +1,1 @@
-The note in degree number 1 of the D♯ minor pentatonic scale is D♯.
+The note in degree number 1 of the D♯ Minor Pentatonic scale is D♯.

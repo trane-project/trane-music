@@ -1,1 +1,1 @@
-The note in degree number 4 of the E major scale is A.
+The note in degree number 4 of the E Major scale is A.

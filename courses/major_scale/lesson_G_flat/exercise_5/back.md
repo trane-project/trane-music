@@ -1,1 +1,1 @@
-The note in degree number 5 of the G♭ major scale is D♭.
+The note in degree number 5 of the G♭ Major scale is D♭.

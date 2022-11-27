@@ -1,1 +1,1 @@
-The note in degree number 6 of the B♭ minor scale is G♭.
+The note in degree number 6 of the B♭ Minor scale is G♭.

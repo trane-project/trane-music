@@ -1,1 +1,1 @@
-The note in degree number 2 of the C minor scale is D.
+The note in degree number 2 of the C Minor scale is D.

@@ -1,1 +1,1 @@
-The note in degree number 4 of the D♯ minor pentatonic scale is A♯.
+The note in degree number 4 of the D♯ Minor Pentatonic scale is A♯.

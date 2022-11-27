@@ -1,1 +1,1 @@
-The note in degree number 5 of the F♯ minor pentatonic scale is E.
+The note in degree number 5 of the F♯ Minor Pentatonic scale is E.

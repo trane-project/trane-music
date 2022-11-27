@@ -1,1 +1,1 @@
-The note in degree number 6 of the D minor scale is B♭.
+The note in degree number 6 of the D Minor scale is B♭.

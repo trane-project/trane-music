@@ -1,1 +1,1 @@
-What note is degree number 4 of the C♯ minor pentatonic scale?
+What note is degree number 4 of the C♯ Minor Pentatonic scale?

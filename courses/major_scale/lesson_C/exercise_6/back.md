@@ -1,1 +1,1 @@
-The note in degree number 6 of the C major scale is A.
+The note in degree number 6 of the C Major scale is A.

@@ -1,1 +1,1 @@
-The note in degree number 4 of the C♯ major pentatonic scale is G♯.
+The note in degree number 4 of the C♯ Major Pentatonic scale is G♯.

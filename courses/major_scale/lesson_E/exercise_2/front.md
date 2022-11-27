@@ -1,1 +1,1 @@
-What note is degree number 2 of the E major scale?
+What note is degree number 2 of the E Major scale?

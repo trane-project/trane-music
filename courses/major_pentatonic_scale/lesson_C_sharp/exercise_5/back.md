@@ -1,1 +1,1 @@
-The note in degree number 5 of the C♯ major pentatonic scale is A♯.
+The note in degree number 5 of the C♯ Major Pentatonic scale is A♯.

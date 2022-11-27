@@ -1,1 +1,1 @@
-The note in degree number 7 of the B♭ minor scale is A♭.
+The note in degree number 7 of the B♭ Minor scale is A♭.

@@ -1,11 +1,9 @@
 {
   "id": "trane::music::theory::minor_pentatonic_scale::basics",
-  "dependencies": [
-    "trane::music::theory::minor_scale::basics"
-  ],
+  "dependencies": [],
   "course_id": "trane::music::theory::minor_pentatonic_scale",
   "name": "Minor Pentatonic Scale - Basic Construction",
-  "description": "Learn the intervals which make up the minor pentatonic scale.",
+  "description": "Learn the intervals which make up the Minor Pentatonic scale.",
   "metadata": null,
   "lesson_material": null,
   "lesson_instructions": null

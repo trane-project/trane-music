@@ -1,1 +1,1 @@
-The note in degree number 2 of the E♭ major pentatonic scale is F.
+The note in degree number 2 of the E♭ Major Pentatonic scale is F.

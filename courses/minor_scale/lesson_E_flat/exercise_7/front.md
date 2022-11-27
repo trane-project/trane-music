@@ -1,1 +1,1 @@
-What note is degree number 7 of the E♭ minor scale?
+What note is degree number 7 of the E♭ Minor scale?

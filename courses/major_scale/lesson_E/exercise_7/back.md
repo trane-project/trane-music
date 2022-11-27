@@ -1,1 +1,1 @@
-The note in degree number 7 of the E major scale is D♯.
+The note in degree number 7 of the E Major scale is D♯.

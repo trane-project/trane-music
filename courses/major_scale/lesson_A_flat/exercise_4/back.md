@@ -1,1 +1,1 @@
-The note in degree number 4 of the A♭ major scale is D♭.
+The note in degree number 4 of the A♭ Major scale is D♭.

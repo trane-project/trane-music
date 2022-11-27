@@ -1,12 +1,11 @@
 {
   "id": "trane::music::theory::major_pentatonic_scale::F♯",
   "dependencies": [
-    "trane::music::theory::major_pentatonic_scale::B",
-    "trane::music::theory::major_scale::F♯"
+    "trane::music::theory::major_pentatonic_scale::B"
   ],
   "course_id": "trane::music::theory::major_pentatonic_scale",
   "name": "Major Pentatonic Scale - Key of F♯",
-  "description": "Learn the notes of the major pentatonic scale in the key of F♯",
+  "description": "Learn the notes of the Major Pentatonic scale in the key of F♯",
   "metadata": {
     "key": [
       "F_sharp"

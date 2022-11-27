@@ -1,1 +1,1 @@
-The note in degree number 5 of the D♭ major scale is A♭.
+The note in degree number 5 of the D♭ Major scale is A♭.

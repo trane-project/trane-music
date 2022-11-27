@@ -1,1 +1,1 @@
-The note in degree number 1 of the C♯ major pentatonic scale is C♯.
+The note in degree number 1 of the C♯ Major Pentatonic scale is C♯.

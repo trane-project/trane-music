@@ -1,1 +1,1 @@
-The note in degree number 3 of the C minor scale is E♭.
+The note in degree number 3 of the C Minor scale is E♭.

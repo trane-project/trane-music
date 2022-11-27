@@ -1,1 +1,1 @@
-The note in degree number 3 of the B minor pentatonic scale is E.
+The note in degree number 3 of the B Minor Pentatonic scale is E.

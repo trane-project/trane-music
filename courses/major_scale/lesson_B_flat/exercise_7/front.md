@@ -1,1 +1,1 @@
-What note is degree number 7 of the B♭ major scale?
+What note is degree number 7 of the B♭ Major scale?

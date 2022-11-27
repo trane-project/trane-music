@@ -1,1 +1,1 @@
-The note in degree number 2 of the A♭ major pentatonic scale is B♭.
+The note in degree number 2 of the A♭ Major Pentatonic scale is B♭.

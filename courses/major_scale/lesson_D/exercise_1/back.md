@@ -1,1 +1,1 @@
-The note in degree number 1 of the D major scale is D.
+The note in degree number 1 of the D Major scale is D.

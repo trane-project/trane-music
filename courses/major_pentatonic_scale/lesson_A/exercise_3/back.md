@@ -1,1 +1,1 @@
-The note in degree number 3 of the A major pentatonic scale is C♯.
+The note in degree number 3 of the A Major Pentatonic scale is C♯.

@@ -1,12 +1,11 @@
 {
   "id": "trane::music::theory::minor_scale::B♭",
   "dependencies": [
-    "trane::music::theory::minor_scale::F",
-    "trane::music::theory::major_scale::D♭"
+    "trane::music::theory::minor_scale::F"
   ],
   "course_id": "trane::music::theory::minor_scale",
   "name": "Minor Scale - Key of B♭",
-  "description": "Learn the notes of the minor scale in the key of B♭",
+  "description": "Learn the notes of the Minor scale in the key of B♭",
   "metadata": {
     "key": [
       "B_flat"

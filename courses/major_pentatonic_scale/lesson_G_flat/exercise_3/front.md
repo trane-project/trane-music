@@ -1,1 +1,1 @@
-What note is degree number 3 of the G♭ major pentatonic scale?
+What note is degree number 3 of the G♭ Major Pentatonic scale?

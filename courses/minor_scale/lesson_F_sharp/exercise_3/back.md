@@ -1,1 +1,1 @@
-The note in degree number 3 of the F♯ minor scale is A.
+The note in degree number 3 of the F♯ Minor scale is A.

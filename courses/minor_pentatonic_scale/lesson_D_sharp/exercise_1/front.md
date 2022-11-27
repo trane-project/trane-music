@@ -1,1 +1,1 @@
-What note is degree number 1 of the D♯ minor pentatonic scale?
+What note is degree number 1 of the D♯ Minor Pentatonic scale?

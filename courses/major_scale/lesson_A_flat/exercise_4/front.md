@@ -1,1 +1,1 @@
-What note is degree number 4 of the A♭ major scale?
+What note is degree number 4 of the A♭ Major scale?

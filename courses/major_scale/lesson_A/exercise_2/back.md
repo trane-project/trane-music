@@ -1,1 +1,1 @@
-The note in degree number 2 of the A major scale is B.
+The note in degree number 2 of the A Major scale is B.

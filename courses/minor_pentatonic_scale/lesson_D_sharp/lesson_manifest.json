@@ -1,12 +1,11 @@
 {
   "id": "trane::music::theory::minor_pentatonic_scale::D♯",
   "dependencies": [
-    "trane::music::theory::minor_pentatonic_scale::G♯",
-    "trane::music::theory::minor_scale::D♯"
+    "trane::music::theory::minor_pentatonic_scale::G♯"
   ],
   "course_id": "trane::music::theory::minor_pentatonic_scale",
   "name": "Minor Pentatonic Scale - Key of D♯",
-  "description": "Learn the notes of the minor pentatonic scale in the key of D♯",
+  "description": "Learn the notes of the Minor Pentatonic scale in the key of D♯",
   "metadata": {
     "key": [
       "D_sharp"

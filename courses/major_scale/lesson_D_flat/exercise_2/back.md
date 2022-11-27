@@ -1,1 +1,1 @@
-The note in degree number 2 of the D♭ major scale is E♭.
+The note in degree number 2 of the D♭ Major scale is E♭.

@@ -1,1 +1,1 @@
-The note in degree number 3 of the B♭ minor scale is D♭.
+The note in degree number 3 of the B♭ Minor scale is D♭.

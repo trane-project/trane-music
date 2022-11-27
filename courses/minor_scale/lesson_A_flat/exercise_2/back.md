@@ -1,1 +1,1 @@
-The note in degree number 2 of the A♭ minor scale is B♭.
+The note in degree number 2 of the A♭ Minor scale is B♭.

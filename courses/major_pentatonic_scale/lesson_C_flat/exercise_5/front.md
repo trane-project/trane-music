@@ -1,1 +1,1 @@
-What note is degree number 5 of the C♭ major pentatonic scale?
+What note is degree number 5 of the C♭ Major Pentatonic scale?

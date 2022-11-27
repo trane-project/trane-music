@@ -1,12 +1,11 @@
 {
   "id": "trane::music::theory::minor_pentatonic_scale::C",
   "dependencies": [
-    "trane::music::theory::minor_pentatonic_scale::G",
-    "trane::music::theory::minor_scale::C"
+    "trane::music::theory::minor_pentatonic_scale::G"
   ],
   "course_id": "trane::music::theory::minor_pentatonic_scale",
   "name": "Minor Pentatonic Scale - Key of C",
-  "description": "Learn the notes of the minor pentatonic scale in the key of C",
+  "description": "Learn the notes of the Minor Pentatonic scale in the key of C",
   "metadata": {
     "key": [
       "C"

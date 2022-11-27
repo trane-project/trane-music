@@ -1,1 +1,1 @@
-The note in degree number 2 of the B minor scale is C♯.
+The note in degree number 2 of the B Minor scale is C♯.

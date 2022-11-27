@@ -1,1 +1,1 @@
-What note is degree number 4 of the A♭ major pentatonic scale?
+What note is degree number 4 of the A♭ Major Pentatonic scale?

@@ -1,1 +1,1 @@
-What note is degree number 5 of the B♭ major pentatonic scale?
+What note is degree number 5 of the B♭ Major Pentatonic scale?

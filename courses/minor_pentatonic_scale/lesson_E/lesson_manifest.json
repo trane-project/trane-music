@@ -1,12 +1,11 @@
 {
   "id": "trane::music::theory::minor_pentatonic_scale::E",
   "dependencies": [
-    "trane::music::theory::minor_pentatonic_scale::A",
-    "trane::music::theory::minor_scale::E"
+    "trane::music::theory::minor_pentatonic_scale::A"
   ],
   "course_id": "trane::music::theory::minor_pentatonic_scale",
   "name": "Minor Pentatonic Scale - Key of E",
-  "description": "Learn the notes of the minor pentatonic scale in the key of E",
+  "description": "Learn the notes of the Minor Pentatonic scale in the key of E",
   "metadata": {
     "key": [
       "E"

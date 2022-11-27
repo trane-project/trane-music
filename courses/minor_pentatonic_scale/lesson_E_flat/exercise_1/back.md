@@ -1,1 +1,1 @@
-The note in degree number 1 of the E♭ minor pentatonic scale is E♭.
+The note in degree number 1 of the E♭ Minor Pentatonic scale is E♭.

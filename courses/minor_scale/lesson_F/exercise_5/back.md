@@ -1,1 +1,1 @@
-The note in degree number 5 of the F minor scale is C.
+The note in degree number 5 of the F Minor scale is C.

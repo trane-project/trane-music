@@ -1,1 +1,1 @@
-The note in degree number 3 of the D♯ minor pentatonic scale is G♯.
+The note in degree number 3 of the D♯ Minor Pentatonic scale is G♯.

@@ -1,1 +1,1 @@
-What note is degree number 5 of the G♯ minor scale?
+What note is degree number 5 of the G♯ Minor scale?

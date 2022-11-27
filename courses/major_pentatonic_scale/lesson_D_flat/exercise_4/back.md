@@ -1,1 +1,1 @@
-The note in degree number 4 of the D♭ major pentatonic scale is A♭.
+The note in degree number 4 of the D♭ Major Pentatonic scale is A♭.

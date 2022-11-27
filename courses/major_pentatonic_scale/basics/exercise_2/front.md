@@ -1,2 +1,1 @@
-What interval from the tonic is degree number 2 of the
-major pentatonic scale?
+What interval from the tonic is degree number 2 of the Major Pentatonic scale?

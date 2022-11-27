@@ -1,1 +1,1 @@
-What note is degree number 6 of the G major scale?
+What note is degree number 6 of the G Major scale?

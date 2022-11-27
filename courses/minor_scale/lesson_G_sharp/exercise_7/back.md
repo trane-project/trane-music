@@ -1,1 +1,1 @@
-The note in degree number 7 of the G♯ minor scale is F♯.
+The note in degree number 7 of the G♯ Minor scale is F♯.

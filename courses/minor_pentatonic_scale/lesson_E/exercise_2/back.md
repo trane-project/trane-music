@@ -1,1 +1,1 @@
-The note in degree number 2 of the E minor pentatonic scale is G.
+The note in degree number 2 of the E Minor Pentatonic scale is G.

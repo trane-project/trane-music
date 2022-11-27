@@ -1,1 +1,1 @@
-The note in degree number 1 of the E major pentatonic scale is E.
+The note in degree number 1 of the E Major Pentatonic scale is E.

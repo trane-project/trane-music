@@ -1,1 +1,1 @@
-The note in degree number 4 of the C minor scale is F.
+The note in degree number 4 of the C Minor scale is F.

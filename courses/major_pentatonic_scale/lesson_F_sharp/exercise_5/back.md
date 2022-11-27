@@ -1,1 +1,1 @@
-The note in degree number 5 of the F♯ major pentatonic scale is D♯.
+The note in degree number 5 of the F♯ Major Pentatonic scale is D♯.

@@ -1,1 +1,1 @@
-The note in degree number 2 of the F minor pentatonic scale is A♭.
+The note in degree number 2 of the F Minor Pentatonic scale is A♭.

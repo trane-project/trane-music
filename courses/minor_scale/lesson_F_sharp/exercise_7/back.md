@@ -1,1 +1,1 @@
-The note in degree number 7 of the F♯ minor scale is E.
+The note in degree number 7 of the F♯ Minor scale is E.

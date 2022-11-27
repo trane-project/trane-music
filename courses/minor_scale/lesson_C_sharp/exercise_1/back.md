@@ -1,1 +1,1 @@
-The note in degree number 1 of the C♯ minor scale is C♯.
+The note in degree number 1 of the C♯ Minor scale is C♯.

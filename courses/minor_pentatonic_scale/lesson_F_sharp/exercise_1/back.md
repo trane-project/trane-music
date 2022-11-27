@@ -1,1 +1,1 @@
-The note in degree number 1 of the F♯ minor pentatonic scale is F♯.
+The note in degree number 1 of the F♯ Minor Pentatonic scale is F♯.

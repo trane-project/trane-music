@@ -1,1 +1,1 @@
-The note in degree number 7 of the A♭ major scale is G.
+The note in degree number 7 of the A♭ Major scale is G.

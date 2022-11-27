@@ -1,1 +1,1 @@
-The note in degree number 1 of the F minor scale is F.
+The note in degree number 1 of the F Minor scale is F.

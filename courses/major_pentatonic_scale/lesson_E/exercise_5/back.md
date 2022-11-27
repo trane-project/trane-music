@@ -1,1 +1,1 @@
-The note in degree number 5 of the E major pentatonic scale is C♯.
+The note in degree number 5 of the E Major Pentatonic scale is C♯.

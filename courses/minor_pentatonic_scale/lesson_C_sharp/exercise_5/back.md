@@ -1,1 +1,1 @@
-The note in degree number 5 of the C♯ minor pentatonic scale is B.
+The note in degree number 5 of the C♯ Minor Pentatonic scale is B.

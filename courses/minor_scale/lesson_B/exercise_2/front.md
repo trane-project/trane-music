@@ -1,1 +1,1 @@
-What note is degree number 2 of the B minor scale?
+What note is degree number 2 of the B Minor scale?

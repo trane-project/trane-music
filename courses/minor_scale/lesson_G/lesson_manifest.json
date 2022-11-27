@@ -1,12 +1,11 @@
 {
   "id": "trane::music::theory::minor_scale::G",
   "dependencies": [
-    "trane::music::theory::minor_scale::D",
-    "trane::music::theory::major_scale::B♭"
+    "trane::music::theory::minor_scale::D"
   ],
   "course_id": "trane::music::theory::minor_scale",
   "name": "Minor Scale - Key of G",
-  "description": "Learn the notes of the minor scale in the key of G",
+  "description": "Learn the notes of the Minor scale in the key of G",
   "metadata": {
     "key": [
       "G"

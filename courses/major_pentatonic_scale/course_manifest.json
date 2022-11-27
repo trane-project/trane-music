@@ -1,8 +1,10 @@
 {
   "id": "trane::music::theory::major_pentatonic_scale",
   "name": "The Major Pentatonic Scale",
-  "dependencies": [],
-  "description": "Learn the notes of the major pentatonic scale for all twelve keys",
+  "dependencies": [
+    "trane::music::theory::major_scale"
+  ],
+  "description": "Learn the notes of the Major Pentatonic scale for all keys",
   "authors": [
     "The Trane Project"
   ],
@@ -11,7 +13,7 @@
       "scales"
     ],
     "scale_type": [
-      "major_pentatonic"
+      "major pentatonic"
     ],
     "skill": [
       "music"

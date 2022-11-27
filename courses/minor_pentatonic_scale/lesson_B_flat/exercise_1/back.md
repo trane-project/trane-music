@@ -1,1 +1,1 @@
-The note in degree number 1 of the B♭ minor pentatonic scale is B♭.
+The note in degree number 1 of the B♭ Minor Pentatonic scale is B♭.

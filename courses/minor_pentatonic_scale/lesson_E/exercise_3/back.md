@@ -1,1 +1,1 @@
-The note in degree number 3 of the E minor pentatonic scale is A.
+The note in degree number 3 of the E Minor Pentatonic scale is A.

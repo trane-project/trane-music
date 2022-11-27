@@ -1,1 +1,1 @@
-The note in degree number 6 of the F major scale is D.
+The note in degree number 6 of the F Major scale is D.

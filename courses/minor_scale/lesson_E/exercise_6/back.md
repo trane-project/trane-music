@@ -1,1 +1,1 @@
-The note in degree number 6 of the E minor scale is C.
+The note in degree number 6 of the E Minor scale is C.

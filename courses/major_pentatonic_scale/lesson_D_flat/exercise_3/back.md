@@ -1,1 +1,1 @@
-The note in degree number 3 of the D♭ major pentatonic scale is F.
+The note in degree number 3 of the D♭ Major Pentatonic scale is F.

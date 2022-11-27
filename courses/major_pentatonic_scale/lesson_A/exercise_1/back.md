@@ -1,1 +1,1 @@
-The note in degree number 1 of the A major pentatonic scale is A.
+The note in degree number 1 of the A Major Pentatonic scale is A.

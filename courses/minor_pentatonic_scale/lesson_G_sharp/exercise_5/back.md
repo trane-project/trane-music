@@ -1,1 +1,1 @@
-The note in degree number 5 of the G♯ minor pentatonic scale is F♯.
+The note in degree number 5 of the G♯ Minor Pentatonic scale is F♯.

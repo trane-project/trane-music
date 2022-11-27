@@ -1,1 +1,1 @@
-The note in degree number 4 of the C♯ major scale is F♯.
+The note in degree number 4 of the C♯ Major scale is F♯.

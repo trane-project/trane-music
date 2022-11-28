@@ -1,9 +1,7 @@
 {
   "id": "trane::music::theory::minor_scale",
   "name": "The Minor Scale",
-  "dependencies": [
-    "trane::music::theory::major_scale"
-  ],
+  "dependencies": [],
   "description": "Learn the notes of the Minor scale for all keys",
   "authors": [
     "The Trane Project"

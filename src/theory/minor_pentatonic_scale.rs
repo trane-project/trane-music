@@ -1,6 +1,6 @@
 use anyhow::Result;
 use lazy_static::lazy_static;
-use trane::course_builder::{music::scales::ScaleType, CourseBuilder};
+use trane::{course_builder::CourseBuilder, data::music::scales::ScaleType};
 use ustr::Ustr;
 
 use crate::theory::{minor_scale, scale_course::ScaleCourse};

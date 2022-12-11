@@ -4,11 +4,13 @@ use anyhow::Result;
 use indoc::formatdoc;
 use trane::{
     course_builder::{
-        music::{circle_fifths::CircleFifthsCourse, notes::*, scales::ScaleType, MusicMetadata},
+        music::{circle_fifths::CircleFifthsCourse, MusicMetadata},
         AssetBuilder, CourseBuilder, ExerciseBuilder, LessonBuilder, TraneMetadata,
     },
     data::{
-        CourseManifest, ExerciseAsset, ExerciseManifestBuilder, ExerciseType, LessonManifestBuilder,
+        music::{notes::*, scales::ScaleType},
+        CourseManifest, ExerciseAsset, ExerciseManifestBuilder, ExerciseType,
+        LessonManifestBuilder,
     },
 };
 use ustr::Ustr;
@@ -181,6 +183,7 @@ impl ScaleCourse {
                 ])),
                 course_material: None,
                 course_instructions: None,
+                generator_config: None,
             },
             course_asset_builders: vec![],
             note_alias: self.note_alias,

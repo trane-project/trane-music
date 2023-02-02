@@ -31,7 +31,7 @@ pub struct ScaleCourse {
     /// The scale type that this course is about.
     pub scale: ScaleType,
 
-    /// An optinal function used to generate the name of the note for the lesson. Useful, for
+    /// An optional function used to generate the name of the note for the lesson. Useful, for
     /// example, to generate a course on the minor scale which follows the circle of fifths.
     pub note_alias: Option<fn(Note) -> Result<Note>>,
 }
@@ -136,7 +136,7 @@ impl ScaleCourse {
                 .exercise_type(ExerciseType::Declarative)
                 .exercise_asset(ExerciseAsset::FlashcardAsset {
                     front_path: "front.md".to_string(),
-                    back_path: "back.md".to_string(),
+                    back_path: Some("back.md".to_string()),
                 })
                 .clone(),
             asset_builders: vec![],
@@ -201,7 +201,7 @@ impl ScaleCourse {
                         .exercise_type(ExerciseType::Procedural)
                         .exercise_asset(ExerciseAsset::FlashcardAsset {
                             front_path: "front.md".to_string(),
-                            back_path: "back.md".to_string(),
+                            back_path: Some("back.md".to_string()),
                         })
                         .clone(),
                     asset_builders: vec![],

@@ -38,7 +38,7 @@ mod tests {
         let temp_dir = tempfile::TempDir::new()?;
         let library_root = &temp_dir.path().to_path_buf();
         build_courses(library_root)?;
-        let trane = trane::Trane::new(library_root)?;
+        let trane = trane::Trane::new(library_root, library_root)?;
         let batch = trane.get_exercise_batch(None)?;
         assert!(!batch.is_empty());
         Ok(())

@@ -7,7 +7,7 @@ edition = "2021"
 anyhow = "1.0.57"
 indoc = "1.0"
 lazy_static = "1.4.0"
-trane = "0.8.0"
+trane = "0.10.0"
 ustr = { version = "0.9.0", features = ["serialization"] }
 
 # Commented out for use for local development.

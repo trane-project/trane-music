@@ -5,8 +5,8 @@ build:
 	cargo build
 
 clean_courses:
-	rm -rf courses/
+	rm -rf old_courses/
 
 build_courses: build clean_courses
-	mkdir courses
-	cd courses; cargo run
+	mkdir old_courses
+	cd old_courses; cargo run

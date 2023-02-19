@@ -8,4 +8,3 @@ The exercises will refer to the book using the shorthand PROGRESSIVE. Here are s
 
 - Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A.1.
 - Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 1.
-

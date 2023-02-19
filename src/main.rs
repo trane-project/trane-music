@@ -29,18 +29,30 @@ fn main() -> Result<()> {
 
 #[cfg(test)]
 mod tests {
-    use trane::scheduler::ExerciseScheduler;
+    use std::{fs, path::Path};
+
+    use anyhow::Result;
+    use trane::{course_library::CourseLibrary, scheduler::ExerciseScheduler, Trane};
 
     use crate::build_courses;
 
     #[test]
-    fn open_library() -> anyhow::Result<()> {
+    fn verify_generated_courses() -> Result<()> {
         let temp_dir = tempfile::TempDir::new()?;
         let library_root = &temp_dir.path().to_path_buf();
         build_courses(library_root)?;
-        let trane = trane::Trane::new(library_root, library_root)?;
+        let trane = Trane::new(library_root, library_root)?;
         let batch = trane.get_exercise_batch(None)?;
         assert!(!batch.is_empty());
+        Ok(())
+    }
+
+    #[test]
+    fn verify_courses() -> Result<()> {
+        let courses_path = Path::new("courses");
+        let trane = Trane::new(&std::env::current_dir()?, Path::new("courses"))?;
+        assert!(trane.get_all_exercise_ids()?.len() > 0);
+        fs::remove_dir_all(courses_path.join(".trane"))?;
         Ok(())
     }
 }

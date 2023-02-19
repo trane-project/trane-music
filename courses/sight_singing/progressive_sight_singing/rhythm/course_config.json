@@ -1,0 +1,524 @@
+{
+    "manifest": {
+        "id": "trane::music::sight_singing::progressive::rhythm",
+        "name": "Progressive Sight Singing",
+        "dependencies": [],
+        "description": "Master the rhythmic part from the book Progressive Sight Singing.",
+        "authors": [
+            "The Trane Project"
+        ],
+        "metadata": {
+            "course_series": [
+                "sight_singing"
+            ],
+            "skill": [
+                "music"
+            ]
+        },
+        "course_material": null,
+        "course_instructions": {
+            "MarkdownAsset": {
+                "path": "course_instructions.md"
+            }
+        },
+        "generator_config": {
+            "KnowledgeBase": {}
+        }
+    },
+    "lessons": [
+        {
+            "short_id": "1.3",
+            "dependencies": [],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A1."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "2",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A2."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "3",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A3."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "4",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A4."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "5",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A5."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "6",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A6."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "7",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A7."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "8",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A8."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "9",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A9."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "10",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A10."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "11",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A11."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "12",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A12."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "13",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A13."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "14",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A14."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "15",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A15."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "16",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A16."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "17",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A17."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "18",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A18."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "19",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A19."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "20",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A20."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "21",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A21."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "22",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A22."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "23",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A23."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "24",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A24."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "25",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A25."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "26",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A26."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "27",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A27."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "28",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A28."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "29",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A29."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "30",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A30."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "31",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A31."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "32",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A32."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "33",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A33."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "34",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A34."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "35",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A35."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "36",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A36."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "37",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A37."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "38",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A38."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "39",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A39."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "40",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.3, Pattern A40."
+                    ],
+                    "back": []
+                }
+            ]
+        },
+        {
+            "short_id": "1.4",
+            "dependencies": [
+                "1.3"
+            ],
+            "metadata": null,
+            "additional_files": [],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 1."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "2",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 2."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "3",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 3."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "4",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 4."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "5",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 5."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "6",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 6."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "7",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 7."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "8",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 8."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "9",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 9."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "10",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 10."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "11",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 11."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "12",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 12."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "13",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 13."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "14",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 14."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "15",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 15."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "16",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 16."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "17",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 17."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "18",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 18."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "19",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 19."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "20",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 20."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "21",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 21."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "22",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 22."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "23",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 23."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "24",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 24."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "25",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 25."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "26",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 26."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "27",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 27."
+                    ],
+                    "back": []
+                },
+                {
+                    "short_id": "28",
+                    "front": [
+                        "Practice PROGRESSIVE, Rhythmic Reading, Chapter 1.4, Exercise 28."
+                    ],
+                    "back": []
+                }
+            ]
+        }
+    ]
+}

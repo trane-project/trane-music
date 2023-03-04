@@ -2,7 +2,6 @@
     "manifest": {
         "id": "trane::music::sight_singing::progressive::melody",
         "name": "Progressive Sight Singing",
-        "dependencies": [],
         "description": "Master the melodic part from the book Progressive Sight Singing.",
         "authors": [
             "The Trane Project"
@@ -15,7 +14,6 @@
                 "music"
             ]
         },
-        "course_material": null,
         "course_instructions": {
             "MarkdownAsset": {
                 "path": "course_instructions.md"

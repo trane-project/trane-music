@@ -1,10 +1,10 @@
 {
-  "id": "trane::music::improvise_for_real::sing_the_numbers::2",
-  "name": "Sing The Numbers 2",
+  "id": "trane::music::improvise_for_real::sing_the_numbers::3",
+  "name": "Sing The Numbers 3",
   "dependencies": [
-    "trane::music::improvise_for_real::sing_the_numbers::1"
+    "trane::music::improvise_for_real::sing_the_numbers::2"
   ],
-  "description": "Master the exercises in the Sing The Numbers 2 course.",
+  "description": "Master the exercises in the Sing The Numbers 3 course.",
   "authors": [
     "The Trane Project"
   ],

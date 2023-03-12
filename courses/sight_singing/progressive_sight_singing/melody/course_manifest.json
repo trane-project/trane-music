@@ -1,7 +1,9 @@
 {
   "id": "trane::music::sight_singing::progressive::melody",
   "name": "Progressive Sight Singing",
-  "dependencies": [],
+  "dependencies": [
+    "trane::music::improvise_for_real::sing_the_numbers::1"
+  ],
   "description": "Master the melodic part from the book Progressive Sight Singing.",
   "authors": [
     "The Trane Project"

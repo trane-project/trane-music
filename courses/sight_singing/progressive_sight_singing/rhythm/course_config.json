@@ -684,7 +684,8 @@
         {
             "short_id": "2.4",
             "dependencies": [
-                "2.3"
+                "2.3",
+                "1.4"
             ],
             "exercises": [
                 {
@@ -1108,7 +1109,8 @@
         {
             "short_id": "3.4",
             "dependencies": [
-                "3.3"
+                "3.3",
+                "2.4"
             ],
             "exercises": [
                 {
@@ -1242,7 +1244,7 @@
         {
             "short_id": "4.2",
             "dependencies": [
-                "3.3"
+                "3.4"
             ],
             "exercises": [
                 {

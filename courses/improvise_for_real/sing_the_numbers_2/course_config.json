@@ -111,9 +111,6 @@
         },
         {
             "short_id": "4",
-            "dependencies": [
-                "3"
-            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -195,9 +192,6 @@
         },
         {
             "short_id": "7",
-            "dependencies": [
-                "6"
-            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -279,9 +273,6 @@
         },
         {
             "short_id": "10",
-            "dependencies": [
-                "9"
-            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -363,9 +354,6 @@
         },
         {
             "short_id": "13",
-            "dependencies": [
-                "12"
-            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -447,9 +435,6 @@
         },
         {
             "short_id": "16",
-            "dependencies": [
-                "15"
-            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -531,9 +516,6 @@
         },
         {
             "short_id": "19",
-            "dependencies": [
-                "18"
-            ],
             "exercises": [
                 {
                     "short_id": "1",

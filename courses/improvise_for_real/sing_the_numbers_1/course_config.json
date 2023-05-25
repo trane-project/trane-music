@@ -52,9 +52,6 @@
         },
         {
             "short_id": "2",
-            "dependencies": [
-                "1"
-            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -80,9 +77,6 @@
         },
         {
             "short_id": "3",
-            "dependencies": [
-                "2"
-            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -109,6 +103,8 @@
         {
             "short_id": "4",
             "dependencies": [
+                "1",
+                "2",
                 "3"
             ],
             "exercises": [
@@ -193,7 +189,7 @@
         {
             "short_id": "7",
             "dependencies": [
-                "6"
+                "5"
             ],
             "exercises": [
                 {
@@ -221,7 +217,7 @@
         {
             "short_id": "8",
             "dependencies": [
-                "7"
+                "5"
             ],
             "exercises": [
                 {
@@ -249,6 +245,8 @@
         {
             "short_id": "9",
             "dependencies": [
+                "6",
+                "7",
                 "8"
             ],
             "exercises": [
@@ -305,7 +303,7 @@
         {
             "short_id": "11",
             "dependencies": [
-                "10"
+                "9"
             ],
             "exercises": [
                 {
@@ -333,7 +331,7 @@
         {
             "short_id": "12",
             "dependencies": [
-                "11"
+                "9"
             ],
             "exercises": [
                 {
@@ -361,6 +359,8 @@
         {
             "short_id": "13",
             "dependencies": [
+                "10",
+                "11",
                 "12"
             ],
             "exercises": [
@@ -417,7 +417,7 @@
         {
             "short_id": "15",
             "dependencies": [
-                "14"
+                "13"
             ],
             "exercises": [
                 {
@@ -445,7 +445,7 @@
         {
             "short_id": "16",
             "dependencies": [
-                "15"
+                "13"
             ],
             "exercises": [
                 {
@@ -473,6 +473,8 @@
         {
             "short_id": "17",
             "dependencies": [
+                "14",
+                "15",
                 "16"
             ],
             "exercises": [
@@ -557,7 +559,7 @@
         {
             "short_id": "20",
             "dependencies": [
-                "19"
+                "18"
             ],
             "exercises": [
                 {
@@ -585,7 +587,7 @@
         {
             "short_id": "21",
             "dependencies": [
-                "20"
+                "18"
             ],
             "exercises": [
                 {
@@ -613,6 +615,8 @@
         {
             "short_id": "22",
             "dependencies": [
+                "19",
+                "20",
                 "21"
             ],
             "exercises": [

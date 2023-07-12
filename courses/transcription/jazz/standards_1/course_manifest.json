@@ -1,0 +1,151 @@
+{
+    "id": "trane::music::transcription::jazz::standards_1",
+    "name": "Jazz Standards Vol. 1",
+    "dependencies": [],
+    "description": "Transcribe jazz standards into your ear and onto your instrument.",
+    "authors": [
+        "The Trane Project"
+    ],
+    "metadata": {
+        "transcription_genre": [
+            "jazz"
+        ]
+    },
+    "course_material": null,
+    "course_instructions": null,
+    "generator_config": {
+        "Transcription": {
+            "improvisation_dependencies": [],
+            "inlined_passages": [
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "naima",
+                            "artist_name": "John Coltrane",
+                            "album_name": "Giant Steps",
+                            "track_name": "Naima"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song.",
+                            "End of song."
+                        ]
+                    }
+                },
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "wonderful_world",
+                            "artist_name": "Eva Cassidy",
+                            "album_name": "Nightbird",
+                            "track_name": "What a Wonderful World"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song.",
+                            "End of song."
+                        ]
+                    }
+                },
+                {   
+                    "asset": {
+                        "Track": {
+                            "short_id": "body_and_soul",
+                            "artist_name": "Coleman Hawkins",
+                            "album_name": "Body and Soul",
+                            "track_name": "Body and Soul"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song.",
+                            "End of song."
+                        ]
+                    }
+                },
+                {   
+                    "asset": {
+                        "Track": {
+                            "short_id": "i_wish_i_knew",
+                            "artist_name": "Nina Simone",
+                            "album_name": "The Montreux Years",
+                            "track_name": "I Wish I Knew How It Would Feel to Be Free (Live - Montreux Jazz Festival, 1976)"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song.",
+                            "End of song."
+                        ]
+                    }
+                },
+                {   
+                    "asset": {
+                        "Track": {
+                            "short_id": "got_it_bad",
+                            "artist_name": "Johnny Hodges",
+                            "album_name": "Johnny Hodges with Billy Strayhorn and the Orchestra",
+                            "track_name": "I've Got It Bad (And That Ain't Good)"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song.",
+                            "End of song."
+                        ]
+                    }
+                },
+                {   
+                    "asset": {
+                        "Track": {
+                            "short_id": "blame_it_on_my_youth",
+                            "artist_name": "Frank Sinatra",
+                            "album_name": "Close to You",
+                            "track_name": "Blame It on My Youth"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song.",
+                            "End of song."
+                        ]
+                    }
+                },
+                {   
+                    "asset": {
+                        "Track": {
+                            "short_id": "sentimental_mood",
+                            "artist_name": "Duke Ellington & John Coltrane",
+                            "album_name": "Duke Ellington & John Coltrane",
+                            "track_name": "In a Sentimental Mood"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song.",
+                            "End of song."
+                        ]
+                    }
+                },
+                {   
+                    "asset": {
+                        "Track": {
+                            "short_id": "cheek_to_cheek",
+                            "artist_name": "Ella Fitzgerald & Louis Armstrong",
+                            "album_name": "Ella and Louis",
+                            "track_name": "Cheek to Cheek"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song.",
+                            "End of song."
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

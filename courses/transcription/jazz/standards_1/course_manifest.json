@@ -15,7 +15,7 @@
     "course_instructions": null,
     "generator_config": {
         "Transcription": {
-            "improvisation_dependencies": [],
+            "transcription_dependencies": [],
             "inlined_passages": [
                 {
                     "asset": {

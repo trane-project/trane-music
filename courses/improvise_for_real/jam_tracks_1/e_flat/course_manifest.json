@@ -19,7 +19,7 @@
     },
     "generator_config": {
         "Transcription": {
-            "improvisation_dependencies": [
+            "transcription_dependencies": [
                 "trane::music::improvise_for_real::jam_tracks::1::b_flat"
             ],
             "skip_singing_lessons": true,

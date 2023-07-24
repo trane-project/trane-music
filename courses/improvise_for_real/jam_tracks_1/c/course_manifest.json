@@ -22,7 +22,7 @@
     },
     "generator_config": {
         "Transcription": {
-            "improvisation_dependencies": [],
+            "transcription_dependencies": [],
             "skip_singing_lessons": true,
             "skip_advanced_lessons": true,
             "inlined_passages": [

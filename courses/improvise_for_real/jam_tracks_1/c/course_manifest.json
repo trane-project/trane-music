@@ -1,6 +1,6 @@
 {
     "id": "trane::music::improvise_for_real::jam_tracks::1::c",
-    "name": "Jam Tracks 1 - key of C",
+    "name": "IFR Jam Tracks Level 1 - key of C",
     "description": "Master the tracks in the Jam Tracks 1 course in the key of C.",
     "dependencies": [
         "trane::music::improvise_for_real::sing_the_numbers::1"
@@ -30,7 +30,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "1_jazz",
-                            "track_name": "1st harmonic env, jazz, key of C"
+                            "track_name": "1st harmonic env, jazz, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -44,7 +45,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "1_meditative",
-                            "track_name": "1st harmonic env, meditative, key of C"
+                            "track_name": "1st harmonic env, meditative, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -58,7 +60,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "1_modern",
-                            "track_name": "1st harmonic env, modern, key of C"
+                            "track_name": "1st harmonic env, modern, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -72,7 +75,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "2_jazz",
-                            "track_name": "2nd harmonic env, jazz, key of C"
+                            "track_name": "2nd harmonic env, jazz, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -86,7 +90,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "2_meditative",
-                            "track_name": "2nd harmonic env, meditative, key of C"
+                            "track_name": "2nd harmonic env, meditative, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -100,7 +105,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "2_modern",
-                            "track_name": "2nd harmonic env, modern, key of C"
+                            "track_name": "2nd harmonic env, modern, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -114,7 +120,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "3_jazz",
-                            "track_name": "3rd harmonic env, jazz, key of C"
+                            "track_name": "3rd harmonic env, jazz, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -128,7 +135,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "3_meditative",
-                            "track_name": "3rd harmonic env, meditative, key of C"
+                            "track_name": "3rd harmonic env, meditative, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -142,7 +150,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "3_modern",
-                            "track_name": "3rd harmonic env, modern, key of C"
+                            "track_name": "3rd harmonic env, modern, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -156,7 +165,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "4_jazz",
-                            "track_name": "4th harmonic env, jazz, key of C"
+                            "track_name": "4th harmonic env, jazz, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -170,7 +180,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "4_meditative",
-                            "track_name": "4th harmonic env, meditative, key of C"
+                            "track_name": "4th harmonic env, meditative, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -184,7 +195,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "4_modern",
-                            "track_name": "4th harmonic env, modern, key of C"
+                            "track_name": "4th harmonic env, modern, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -198,7 +210,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "5_jazz",
-                            "track_name": "5th harmonic env, jazz, key of C"
+                            "track_name": "5th harmonic env, jazz, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -212,7 +225,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "5_meditative",
-                            "track_name": "5th harmonic env, meditative, key of C"
+                            "track_name": "5th harmonic env, meditative, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -226,7 +240,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "5_modern",
-                            "track_name": "5th harmonic env, modern, key of C"
+                            "track_name": "5th harmonic env, modern, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -240,7 +255,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "6_jazz",
-                            "track_name": "6th harmonic env, jazz, key of C"
+                            "track_name": "6th harmonic env, jazz, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -254,7 +270,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "6_meditative",
-                            "track_name": "6th harmonic env, meditative, key of C"
+                            "track_name": "6th harmonic env, meditative, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -268,7 +285,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "6_modern",
-                            "track_name": "6th harmonic env, modern, key of C"
+                            "track_name": "6th harmonic env, modern, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -282,7 +300,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "7_jazz",
-                            "track_name": "7th harmonic env, jazz, key of C"
+                            "track_name": "7th harmonic env, jazz, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -296,7 +315,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "7_meditative",
-                            "track_name": "7th harmonic env, meditative, key of C"
+                            "track_name": "7th harmonic env, meditative, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {
@@ -310,7 +330,8 @@
                     "asset": {
                         "Track": {
                             "short_id": "7_modern",
-                            "track_name": "7th harmonic env, modern, key of C"
+                            "track_name": "7th harmonic env, modern, key of C",
+                            "album_name": "IFR Jam Tracks Level 1"
                         }
                     },
                     "intervals": {

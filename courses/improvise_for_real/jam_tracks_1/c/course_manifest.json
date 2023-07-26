@@ -1,7 +1,7 @@
 {
     "id": "trane::music::improvise_for_real::jam_tracks::1::c",
     "name": "IFR Jam Tracks Level 1 - key of C",
-    "description": "Master the tracks in the Jam Tracks 1 course in the key of C.",
+    "description": "Master the tracks in the IFR Jam Tracks Level 1 course in the key of C.",
     "dependencies": [
         "trane::music::improvise_for_real::sing_the_numbers::1"
     ],

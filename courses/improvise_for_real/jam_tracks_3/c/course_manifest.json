@@ -2,9 +2,6 @@
     "id": "trane::music::improvise_for_real::jam_tracks::3::c",
     "name": "IFR Jam Tracks Level 3 - key of C",
     "description": "Master the tracks in the IFR Jam Tracks Level 3 course in the key of C.",
-    "dependencies": [
-        "trane::music::improvise_for_real::sing_the_numbers::3"
-    ],
     "authors": [
         "The Trane Project"
     ],
@@ -23,6 +20,7 @@
     "generator_config": {
         "Transcription": {
             "transcription_dependencies": [
+                "trane::music::improvise_for_real::sing_the_numbers::3",
                 "trane::music::improvise_for_real::jam_tracks::2::c"
             ],
             "skip_singing_lessons": true,

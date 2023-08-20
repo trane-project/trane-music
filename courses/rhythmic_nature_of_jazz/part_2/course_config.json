@@ -1,0 +1,151 @@
+{
+    "manifest": {
+        "id": "trane::music::rhythmic_nature_of_jazz::2",
+        "name": "The Rhythmic Nature of Jazz Part 2",
+        "description": "Master the exercises from the Rhythmic Nature of Jazz Part 2 course.",
+        "authors": [
+            "The Trane Project"
+        ],
+        "metadata": {
+            "course_series": [
+                "rhythmic_nature_of_jazz"
+            ],
+            "skill": [
+                "music"
+            ]
+        },
+        "course_instructions": {
+            "MarkdownAsset": {
+                "path": "course_instructions.md"
+            }
+        },
+        "generator_config": {
+            "KnowledgeBase": {}
+        }
+    },
+    "lessons": [
+        {
+            "short_id": "1",
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice RHYTH2, Track 1."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "2",
+            "dependencies": [
+                "1"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice RHYTH2, Track 2."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "3",
+            "dependencies": [
+                "2"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice RHYTH2, Track 3."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "4",
+            "dependencies": [
+                "3"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Listen to the demo in RHYTH2, Track 4. Then practice RHYTH2, Track 5."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "5",
+            "dependencies": [
+                "4"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Listen to the demo in RHYTH2, Track 6. Then practice RHYTH2, Track 7."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "6",
+            "dependencies": [
+                "5"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Listen to the demo in RHYTH2, Track 8. Then practice RHYTH2, Track 9."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "7",
+            "dependencies": [
+                "6"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Listen to the demo in RHYTH2, Track 10. Then practice RHYTH2, Track 11."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "8",
+            "dependencies": [
+                "7"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Listen to the demo in RHYTH2, Track 12. Then practice RHYTH2, Track 13."
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "9",
+            "dependencies": [
+                "8"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Practice RHYTH2, Track 14."
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "trane::music::rhythmic_nature_of_jazz::2",
+  "name": "The Rhythmic Nature of Jazz Part 2",
+  "dependencies": [],
+  "description": "Master the exercises from the Rhythmic Nature of Jazz Part 2 course.",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "course_series": [
+      "rhythmic_nature_of_jazz"
+    ],
+    "skill": [
+      "music"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": {
+    "MarkdownAsset": {
+      "path": "course_instructions.md"
+    }
+  },
+  "generator_config": {
+    "KnowledgeBase": {}
+  }
+}

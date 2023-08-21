@@ -1,0 +1,206 @@
+{
+    "id": "trane::music::transcription::play_alongs::3",
+    "name": "Jamey Aebersold Play Alongs, Volume 3",
+    "description": "Practice the tracks from Jamey Aebersold's Play Alongs, Volume 3.",
+    "authors": [
+        "The Trane Project"
+    ],
+    "metadata": {
+        "course_series": [
+            "jamey_aebersold_play_alongs"
+        ],
+        "skill": [
+            "music"
+        ]
+    },
+    "generator_config": {
+        "Transcription": {
+            "transcription_dependencies": [
+                "trane::music::transcription::play_alongs::2"
+            ],
+            "skip_singing_lessons": true,
+            "inlined_passages": [
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "1",
+                            "track_name": "Track 1",
+                            "album_name": "Jamey Aebersold Play Alongs, Volume 3"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song",
+                            "End of song"
+                        ]
+                    }
+                },
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "2",
+                            "track_name": "Track 2",
+                            "album_name": "Jamey Aebersold Play Alongs, Volume 3"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song",
+                            "End of song"
+                        ]
+                    }
+                },
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "3",
+                            "track_name": "Track 3",
+                            "album_name": "Jamey Aebersold Play Alongs, Volume 3"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song",
+                            "End of song"
+                        ]
+                    }
+                },
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "4",
+                            "track_name": "Track 4",
+                            "album_name": "Jamey Aebersold Play Alongs, Volume 3"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song",
+                            "End of song"
+                        ]
+                    }
+                },
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "5",
+                            "track_name": "Track 5",
+                            "album_name": "Jamey Aebersold Play Alongs, Volume 3"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song",
+                            "End of song"
+                        ]
+                    }
+                },
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "6",
+                            "track_name": "Track 6",
+                            "album_name": "Jamey Aebersold Play Alongs, Volume 3"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song",
+                            "End of song"
+                        ]
+                    }
+                },
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "7",
+                            "track_name": "Track 7",
+                            "album_name": "Jamey Aebersold Play Alongs, Volume 3"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song",
+                            "End of song"
+                        ]
+                    }
+                },
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "8",
+                            "track_name": "Track 8",
+                            "album_name": "Jamey Aebersold Play Alongs, Volume 3"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song",
+                            "End of song"
+                        ]
+                    }
+                },
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "9",
+                            "track_name": "Track 9",
+                            "album_name": "Jamey Aebersold Play Alongs, Volume 3"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song",
+                            "End of song"
+                        ]
+                    }
+                },
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "10",
+                            "track_name": "Track 10",
+                            "album_name": "Jamey Aebersold Play Alongs, Volume 3"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song",
+                            "End of song"
+                        ]
+                    }
+                },
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "11",
+                            "track_name": "Track 11",
+                            "album_name": "Jamey Aebersold Play Alongs, Volume 3"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song",
+                            "End of song"
+                        ]
+                    }
+                },
+                {
+                    "asset": {
+                        "Track": {
+                            "short_id": "12",
+                            "track_name": "Track 12",
+                            "album_name": "Jamey Aebersold Play Alongs, Volume 3"
+                        }
+                    },
+                    "intervals": {
+                        "1": [
+                            "Beginning of song",
+                            "End of song"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

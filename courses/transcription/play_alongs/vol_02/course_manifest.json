@@ -96,21 +96,6 @@
                 {
                     "asset": {
                         "Track": {
-                            "short_id": "7",
-                            "track_name": "Track 7",
-                            "album_name": "Jamey Aebersold Play Alongs, Volume 2"
-                        }
-                    },
-                    "intervals": {
-                        "1": [
-                            "Beginning of song",
-                            "End of song"
-                        ]
-                    }
-                },
-                {
-                    "asset": {
-                        "Track": {
                             "short_id": "8",
                             "track_name": "Track 8",
                             "album_name": "Jamey Aebersold Play Alongs, Volume 2"

@@ -51,8 +51,12 @@ impl ScaleCourse {
         let scale_notes = scale.notes(note)?;
         let mut builders = vec![];
         for (index, scale_note) in scale_notes.notes.into_iter().enumerate() {
-            let degree = index + 1;
+            // Skip the first note, which is the tonic and is always the same as the note.
+            if index == 0 {
+                continue;
+            }
 
+            let degree = index + 1;
             builders.push(ExerciseBuilder {
                 directory_name: format!("exercise_{}", degree),
                 asset_builders: vec![
@@ -101,7 +105,6 @@ impl ScaleCourse {
 
             let degree = index + 1;
             let lesson_id = Self::basics_lesson_id(course_id);
-
             let exercise = ExerciseBuilder {
                 directory_name: format!("exercise_{}", degree),
                 asset_builders: vec![

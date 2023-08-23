@@ -184,21 +184,6 @@
                             "End of song"
                         ]
                     }
-                },
-                {
-                    "asset": {
-                        "Track": {
-                            "short_id": "12",
-                            "track_name": "Track 12",
-                            "album_name": "Jamey Aebersold Play Alongs, Volume 3"
-                        }
-                    },
-                    "intervals": {
-                        "1": [
-                            "Beginning of song",
-                            "End of song"
-                        ]
-                    }
                 }
             ]
         }

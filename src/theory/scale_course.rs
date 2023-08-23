@@ -94,6 +94,11 @@ impl ScaleCourse {
         let mut exercises = vec![];
 
         for (index, interval) in intervals.iter().enumerate() {
+            // Skip the first interval, which is the tonic and is always a unison interval.
+            if index == 0 {
+                continue;
+            }
+
             let degree = index + 1;
             let lesson_id = Self::basics_lesson_id(course_id);
 

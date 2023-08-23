@@ -180,7 +180,10 @@ impl ScaleCourse {
                 authors: Some(vec![AUTHORS.to_string()]),
                 metadata: Some(BTreeMap::from([
                     (TraneMetadata::Skill.to_string(), vec!["music".to_string()]),
-                    (TraneMetadata::Skill.to_string(), vec!["music_theory".to_string()]),
+                    (
+                        TraneMetadata::Skill.to_string(),
+                        vec!["music_theory".to_string()],
+                    ),
                     (
                         MusicMetadata::MusicalConcept.to_string(),
                         vec!["scales".to_string()],

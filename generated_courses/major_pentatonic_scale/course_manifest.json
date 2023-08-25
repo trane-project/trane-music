@@ -2,7 +2,7 @@
   "id": "trane::music::theory::major_pentatonic_scale",
   "name": "The Major Pentatonic Scale",
   "dependencies": [
-    "trane::music::theory::major_scale"
+    "trane::music::theory::minor_scale"
   ],
   "description": "Learn the notes of the Major Pentatonic scale for all keys",
   "authors": [

@@ -2,6 +2,7 @@
   "id": "trane::music::improvise_for_real::sing_the_numbers::1",
   "name": "Sing The Numbers 1",
   "dependencies": [],
+  "superseded": [],
   "description": "Master the exercises in the Sing The Numbers 1 course.",
   "authors": [
     "The Trane Project"

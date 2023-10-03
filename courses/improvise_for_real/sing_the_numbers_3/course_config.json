@@ -44,6 +44,9 @@
             "dependencies": [
                 "1"
             ],
+            "superseded": [
+                "1"
+            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -72,6 +75,9 @@
             "dependencies": [
                 "2"
             ],
+            "superseded": [
+                "2"
+            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -95,6 +101,9 @@
         {
             "short_id": "3_transposed",
             "dependencies": [
+                "3"
+            ],
+            "superseded": [
                 "3"
             ],
             "exercises": [
@@ -123,6 +132,9 @@
         {
             "short_id": "4_transposed",
             "dependencies": [
+                "4"
+            ],
+            "superseded": [
                 "4"
             ],
             "exercises": [
@@ -154,6 +166,9 @@
             "dependencies": [
                 "5"
             ],
+            "superseded": [
+                "5"
+            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -182,6 +197,9 @@
             "dependencies": [
                 "6"
             ],
+            "superseded": [
+                "6"
+            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -205,6 +223,9 @@
         {
             "short_id": "7_transposed",
             "dependencies": [
+                "7"
+            ],
+            "superseded": [
                 "7"
             ],
             "exercises": [
@@ -232,6 +253,9 @@
             "dependencies": [
                 "8"
             ],
+            "superseded": [
+                "8"
+            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -255,6 +279,9 @@
         {
             "short_id": "9_transposed",
             "dependencies": [
+                "9"
+            ],
+            "superseded": [
                 "9"
             ],
             "exercises": [
@@ -287,6 +314,9 @@
             "dependencies": [
                 "10"
             ],
+            "superseded": [
+                "10"
+            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -316,6 +346,9 @@
             "dependencies": [
                 "11"
             ],
+            "superseded": [
+                "11"
+            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -342,6 +375,9 @@
         {
             "short_id": "12_transposed",
             "dependencies": [
+                "12"
+            ],
+            "superseded": [
                 "12"
             ],
             "exercises": [
@@ -373,6 +409,9 @@
             "dependencies": [
                 "13"
             ],
+            "superseded": [
+                "13"
+            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -400,6 +439,9 @@
         {
             "short_id": "14_transposed",
             "dependencies": [
+                "14"
+            ],
+            "superseded": [
                 "14"
             ],
             "exercises": [
@@ -431,6 +473,9 @@
             "dependencies": [
                 "15"
             ],
+            "superseded": [
+                "15"
+            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -457,6 +502,9 @@
         {
             "short_id": "16_transposed",
             "dependencies": [
+                "16"
+            ],
+            "superseded": [
                 "16"
             ],
             "exercises": [
@@ -488,6 +536,9 @@
             "dependencies": [
                 "17"
             ],
+            "superseded": [
+                "17"
+            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -514,6 +565,9 @@
         {
             "short_id": "18_transposed",
             "dependencies": [
+                "18"
+            ],
+            "superseded": [
                 "18"
             ],
             "exercises": [
@@ -544,6 +598,9 @@
             "dependencies": [
                 "19"
             ],
+            "superseded": [
+                "19"
+            ],
             "exercises": [
                 {
                     "short_id": "1",
@@ -571,6 +628,9 @@
         {
             "short_id": "20_transposed",
             "dependencies": [
+                "20"
+            ],
+            "superseded": [
                 "20"
             ],
             "exercises": [

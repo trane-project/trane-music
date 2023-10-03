@@ -4,6 +4,7 @@
   "dependencies": [
     "trane::music::improvise_for_real::sing_the_numbers::2"
   ],
+  "superseded": [],
   "description": "Master the exercises in the Sing The Numbers 3 course.",
   "authors": [
     "The Trane Project"

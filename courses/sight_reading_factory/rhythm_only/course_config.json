@@ -1,0 +1,503 @@
+{
+    "manifest": {
+        "id": "trane::music::sight_reading_factory::rhythm_only",
+        "name": "Sight Reading Factory - Rhythm Only",
+        "description": "Master the rhythm-only exercises from Sight Reading Factory",
+        "authors": [
+            "The Trane Project"
+        ],
+        "metadata": {
+            "course_series": [
+                "sight_reading_factory"
+            ],
+            "skill": [
+                "music"
+            ]
+        },
+        "course_instructions": {
+            "MarkdownAsset": {
+                "path": "course_instructions.md"
+            }
+        },
+        "generator_config": {
+            "KnowledgeBase": {}
+        }
+    },
+    "lessons": [
+        {
+            "short_id": "level_1_audiation",
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 2/4"
+                    ]
+                },
+                {
+                    "short_id": "2",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 3/4"
+                    ]
+                },
+                {
+                    "short_id": "3",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 4/4"
+                    ]
+                },
+                {
+                    "short_id": "4",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 5/4"
+                    ]
+                },
+                {
+                    "short_id": "5",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 6/4"
+                    ]
+                },
+                {
+                    "short_id": "6",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: Cut Time"
+                    ]
+                },
+                {
+                    "short_id": "7",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 3/2"
+                    ]
+                },
+                {
+                    "short_id": "8",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 4/2"
+                    ]
+                },
+                {
+                    "short_id": "9",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 6/8"
+                    ]
+                },
+                {
+                    "short_id": "10",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 9/8"
+                    ]
+                },
+                {
+                    "short_id": "11",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 12/8"
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "level_1_sight_reading",
+            "dependencies": [
+                "level_1_audiation"
+            ],
+            "superseded": [
+                "level_1_audiation"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 2/4"
+                    ]
+                },
+                {
+                    "short_id": "2",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 3/4"
+                    ]
+                },
+                {
+                    "short_id": "3",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 4/4"
+                    ]
+                },
+                {
+                    "short_id": "4",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 5/4"
+                    ]
+                },
+                {
+                    "short_id": "5",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 6/4"
+                    ]
+                },
+                {
+                    "short_id": "6",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: Cut Time"
+                    ]
+                },
+                {
+                    "short_id": "7",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 3/2"
+                    ]
+                },
+                {
+                    "short_id": "8",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 4/2"
+                    ]
+                },
+                {
+                    "short_id": "9",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 6/8"
+                    ]
+                },
+                {
+                    "short_id": "10",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 9/8"
+                    ]
+                },
+                {
+                    "short_id": "11",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 1",
+                        "* Time Signature: 12/8"
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "level_2_audiation",
+            "dependencies": [
+                "level_1_audiation"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 2/4"
+                    ]
+                },
+                {
+                    "short_id": "2",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 3/4"
+                    ]
+                },
+                {
+                    "short_id": "3",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 4/4"
+                    ]
+                },
+                {
+                    "short_id": "4",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 5/4"
+                    ]
+                },
+                {
+                    "short_id": "5",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 6/4"
+                    ]
+                },
+                {
+                    "short_id": "6",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: Cut Time"
+                    ]
+                },
+                {
+                    "short_id": "7",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 3/2"
+                    ]
+                },
+                {
+                    "short_id": "8",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 4/2"
+                    ]
+                },
+                {
+                    "short_id": "9",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 6/8"
+                    ]
+                },
+                {
+                    "short_id": "10",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 9/8"
+                    ]
+                },
+                {
+                    "short_id": "11",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 12/8"
+                    ]
+                }
+            ]
+        },
+        {
+            "short_id": "level_2_sight_reading",
+            "dependencies": [
+                "level_2_audiation"
+            ],
+            "superseded": [
+                "level_2_audiation"
+            ],
+            "exercises": [
+                {
+                    "short_id": "1",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 2/4"
+                    ]
+                },
+                {
+                    "short_id": "2",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 3/4"
+                    ]
+                },
+                {
+                    "short_id": "3",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 4/4"
+                    ]
+                },
+                {
+                    "short_id": "4",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 5/4"
+                    ]
+                },
+                {
+                    "short_id": "5",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 6/4"
+                    ]
+                },
+                {
+                    "short_id": "6",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: Cut Time"
+                    ]
+                },
+                {
+                    "short_id": "7",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 3/2"
+                    ]
+                },
+                {
+                    "short_id": "8",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 4/2"
+                    ]
+                },
+                {
+                    "short_id": "9",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 6/8"
+                    ]
+                },
+                {
+                    "short_id": "10",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 9/8"
+                    ]
+                },
+                {
+                    "short_id": "11",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "* Instrument: Rhythm Only",
+                        "* Level: 2",
+                        "* Time Signature: 12/8"
+                    ]
+                }
+            ]
+        }
+    ]
+}

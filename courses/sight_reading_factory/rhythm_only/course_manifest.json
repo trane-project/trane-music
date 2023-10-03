@@ -1,0 +1,27 @@
+{
+  "id": "trane::music::sight_reading_factory::rhythm_only",
+  "name": "Sight Reading Factory - Rhythm Only",
+  "dependencies": [],
+  "superseded": [],
+  "description": "Master the rhythm-only exercises from Sight Reading Factory",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "course_series": [
+      "sight_reading_factory"
+    ],
+    "skill": [
+      "music"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": {
+    "MarkdownAsset": {
+      "path": "course_instructions.md"
+    }
+  },
+  "generator_config": {
+    "KnowledgeBase": {}
+  }
+}

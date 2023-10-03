@@ -353,7 +353,7 @@
                         "",
                         "- Instrument: Rhythm Only",
                         "- Level: 2",
-                        "- Time Signature: 6/8"
+                        "- Time Signature: 3/8"
                     ]
                 },
                 {
@@ -363,11 +363,21 @@
                         "",
                         "- Instrument: Rhythm Only",
                         "- Level: 2",
-                        "- Time Signature: 9/8"
+                        "- Time Signature: 6/8"
                     ]
                 },
                 {
                     "short_id": "11",
+                    "front": [
+                        "Listen to and audiate the exercises generated with the following settings:",
+                        "",
+                        "- Instrument: Rhythm Only",
+                        "- Level: 2",
+                        "- Time Signature: 9/8"
+                    ]
+                },
+                {
+                    "short_id": "12",
                     "front": [
                         "Listen to and audiate the exercises generated with the following settings:",
                         "",
@@ -474,7 +484,7 @@
                         "",
                         "- Instrument: Rhythm Only",
                         "- Level: 2",
-                        "- Time Signature: 6/8"
+                        "- Time Signature: 3/8"
                     ]
                 },
                 {
@@ -484,11 +494,21 @@
                         "",
                         "- Instrument: Rhythm Only",
                         "- Level: 2",
-                        "- Time Signature: 9/8"
+                        "- Time Signature: 6/8"
                     ]
                 },
                 {
                     "short_id": "11",
+                    "front": [
+                        "Sight read the exercises generated with the following settings:",
+                        "",
+                        "- Instrument: Rhythm Only",
+                        "- Level: 2",
+                        "- Time Signature: 9/8"
+                    ]
+                },
+                {
+                    "short_id": "12",
                     "front": [
                         "Sight read the exercises generated with the following settings:",
                         "",

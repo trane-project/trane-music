@@ -56,7 +56,7 @@ mod tests {
         )?;
 
         let trane = Trane::new(&temp_dir.path(), &temp_dir.path())?;
-        assert!(trane.get_all_exercise_ids().len() > 0);
+        assert!(trane.get_all_exercise_ids(None).len() > 0);
         Ok(())
     }
 }

@@ -173,6 +173,7 @@ impl ScaleCourse {
                 id: self.course_id,
                 name: format!("The {} Scale", scale.to_string()),
                 dependencies: self.dependencies.clone(),
+                superseded: vec![],
                 description: Some(format!(
                     "Learn the notes of the {} scale for all keys",
                     scale.to_string()

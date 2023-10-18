@@ -21,7 +21,8 @@
     "generator_config": {
         "Transcription": {
             "transcription_dependencies": [
-                "trane::music::improvise_for_real::jam_tracks::2::a"
+                "trane::music::improvise_for_real::jam_tracks::2::a",
+                "trane::music::improvise_for_real::jam_tracks::3::d"
             ],
             "skip_singing_lessons": true,
             "skip_advanced_lessons": true,

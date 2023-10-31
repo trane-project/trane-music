@@ -16,6 +16,9 @@
         ],
         "key": [
             "e_flat"
+        ],
+        "ifr_level": [
+            "4"
         ]
     },
     "generator_config": {

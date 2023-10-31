@@ -16,6 +16,9 @@
         ],
         "key": [
             "g"
+        ],
+        "ifr_level": [
+            "2"
         ]
     },
     "generator_config": {
